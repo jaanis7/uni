@@ -8,3 +8,4 @@
 | [Car Race](https://github.com/cg-htw/proof) | Computer Graphics | SS19 | |C++, OpenGL |
 | WebSequencer   | Multimedia System Design | SS19 | [link](https://websequencer.herokuapp.com/) | JS, ToneJS, PHP, HTML, CSS |
 | [WebDJ](https://github.com/janis-schanbacher/webdj)   | Audio- and Video Technology | SS20 | [link](http://webdj.herokuapp.com/) | React, Web Audio API, Canvas API |
+| [Docker-demo](https://github.com/janis-schanbacher/docker-demo)   | Distributed Systems | SS20 | | Docker Compose, Python, Flask, React |
