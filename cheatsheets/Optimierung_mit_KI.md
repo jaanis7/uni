@@ -2,7 +2,7 @@
 ## Prolog
 - Logische Programmiersprache
 - Unifikation (Variablenbindungs-Algorithmus)
-- Parameter können sowohl Eingabe-, als auch Ausgabeparameter sein = Unifikation?
+- Parameter können sowohl Eingabe-, als auch Ausgabeparameter sein
 - Single-Assignment-Variable: Variablenwert ist nicht überschreibbar
 	- Zum ändern also Einführung von neuem Variablenname
 		- Notwendigkeit Einführung neuer Variablen fürht i.Allg. nicht zu Erhöhung des Speicherverbrauchs (alte VariablenNamen werden im rekursiven Auffruf i.allg. nicht mehr benötit)

@@ -1,0 +1,100 @@
+- Benutzerzentrierter Entwurf (User Centered Design) von Multimedia-Systemen
+  - UCD-Zyklus:
+    (Identify need for UCD -->
+    1. Specify context of use (Field Reserch)
+    2. Specify product requirements (Interviewsa & focus groups)
+    3. Product design solution (Participatory design)
+    4. Evaluate design (User testiung)
+    (Product meets user specific requirements or 1.)
+  - Interakltive Systeme
+    - Kategorien: GUI, 3DUI, TUI, SBIM
+
+- Usability
+  - ISO-Kriterien
+  - Intuitive Interaktion
+- Kognition, Wahrnehmung und Motorik
+  - Menschliche INformationsverarbeitung
+  - Visuelle Wahrnehmung, Farbwahrnehmung
+  - Sensorische INtegration
+
+
+Übungen: Enthalng des UCD-Zyklus
+  - Analyse: Epirische Erhebungsmethoden (Interviewtechniken, Fokusgruppen,
+    Beobachtungsstudien, Wizard-of-Oz)
+  - Design: Entwurfstechniken (Prototyping, Sketching)
+  - Evaluation: Evaluationsmethoden (Fragebögen, ISO-Norm, Attrak-Dif)
+
+
+
+VL1 (Mensch-Maschine-Systeme):
+
+- Motivation
+  - Usability-Methoden helfen Erwartungen der potentiellen Nutzer zu erkennen und erfüllen
+  - Einsatz von Usability-Methoden hilft bei Suche nach Fehlern und Problemen
+    in frühen Entwicklungsphasen des User Interfaces
+  - Zeit- & Ressourcenersparnis für Nutzer
+  - Reduzierte Wartungskosten
+  - Usability-Methoden eröffnen neue Möglichkeiten für intuitive Interaktion
+    mit Technologien
+  - Betrachtung der User Experience (UX) bezieht neben Zielerreichung auch
+    das positive Erleben der Mensch-Technik-Interaktion in die Gestalltung
+    von Schnittstellen ein
+- Definition: Ein Mensch-Maschine-System liegt dann vor, wenn eine menschliche
+  Komponente mit einer technischen Komponente zsm eine Aufgabe bearbeitet.
+    - Menschliche Komponente: einzelner Mensch oder Gruppe von Menschen
+    - Technische Komponente: Maschine, COmputer, Fahrzeug, komplexe technische
+      Anlage oder technischer Prozess
+- Interaktion zw. Mensch und Masdchine über die sog. Benutzerschnittstelle
+  (User-Interface) und besteht im Austausch von Informationen zw. Mensch und Maschine
+- Die SChnittstelle erlaubt Bediener das Bedienen der Maschine, das Beobachten
+  der Anlagenzustänmde und fall erforderlich das Eingreifen in den Prozess
+- Beispiele interaktiver Systeme
+  - Gestenbasierte Interaktion
+  - Tangible User Interfaces (TUI)
+  - Mensch-Maschine-Interaktion im/in Fahrzeug, Flugzeug, Produktentwicklung
+- Klassifikation:
+  - Information und Kommunikation
+    - Datenverarbeitung
+    - Datenerfassung (BüroSW,...)
+    - Kommunikation (Telefon)
+    - Kontrollsysteme
+  - Haushalt
+    - Haushaltstechnik (Küchengeräte, Waschmaschine,...)
+    - Unterhaltungselektronik (TV, HiFi-Anlage,...)
+  - Transport
+    - Fahrzeuge (Luft-, Wasser-, Straßen-, Schienenfahrzeuge)
+    - Sonstige Beförderung (Seilbahnen, Aufzüge)
+  - Produktion
+    - Rohstoffgewinnung
+    - Energiegewinnung
+    - Fertigung
+    - Stoffumwandlung
+    - Entsorgung
+- Schematische Darstellung (Mensch vor Maschine/Computer)
+  - Durch Sensorik Informationaufnhemen
+  --> Informationsverarbeitung im Gehirn --> Motorik --> INteraktionsgeräte
+  --> CPU-Datenverarbeitung --> Anzeigen /Effektoren
+
+- Sensorik: Unbewusstes Aufnehmen von Informationen durch Sinne aus der Umwelt (Reizung)
+- Wahrnehmung: Durch Sinnesreize ausgelöste bewusste Empfindungen
+- Motorik: Aktive Bewegungen des Körpers, durch die der Menschg auf seine
+  Umwelt reagfiuert und Veränderungen an aktuellen ZUständen vornehmen kann
+- Sensomotorik steuert ZUsammenspiel von Sinnen, Empfindungen und Handlungen
+- ZWischen Organismus (Mensch) und Umgebung (Maschine)= besteht kreisfpörmige
+  Verbindung aus Bewegung und Wahrnehmung
+- Menschliche Infoirmationsdverarbeitung (Abbildung Folie 30):
+  - Sensorischer Kurzzeitspeicher stellt aufgenommene Reize für
+    Wahrnehmungsvorgänge der Mustererkennung und Merkmalsbildung eine gewisse
+    Zeit bereit
+  - Zentralknervöse kognitäte wählnen zw mögtlichen Alternativen einer Antwort
+    als Reaktion auf die Reiza án Eingang
+    - Im ständigen Austausch mit Arbeitszeitgedächtnis (in welchem nicht
+      Informationen selbst sondern Interpretation kurzzeitig gespeichert wird)
+    - Dauerhafte Speicherung von INformationen nur im Langzeitgedächtnis
+- Einflussfaktoren auf Einsatz technischjer Systewme
+  - Usereigenschaften (Erfahrung, kognitive, perzeptive und motorische
+    Fähigkeiten, Persönlichkeit, Vorlieben)
+  - Aufgabeneingenschaften (Selektion, Positionierung, Orientierung. z.b.
+    schöpferisch-gestallterisch oder technisch-funktional)
+  - Systemeigenschaften (Interaktionstechnik, Grad der Immersion,
+    Visualisierung, Freiheitsgrade)

@@ -1,0 +1,751 @@
+VL 01
+- Software: Computerprogramme, Prouzeduren und ggf. assoziierte Dokumentation
+  und Data, die den Betrieb eines Computer Systems betrifft.
+  Eigenschaften:
+  - immaterielles Produkt (nicht anfassbar, wird entwickelt/konstruiiert, nicht
+    im klassischen Sinne gefertigt)
+  - Unterliegt keinem Verschlieiß
+    - Keine Abnutzuungserscheinungen beim Ablauf
+    - keine klassische Wartung notwendig
+  - Kein einfacher Einsatz von Ersatzteilen für fehlerhafte Komponente
+  - Software altert
+    - Einsatzumgebung vonn Software ändert sich kontinuierlich.
+    Wird Software nicht entsprehcend angepasst, kannn sie irgendwann den
+    ursprünglichen ZWeck nicht mehrb erfüllen
+  - Software ist schwerr zu vermessen
+    - Qualität schwierig zu definieren/quantifizieren
+    - Korrelation zw. messbarem und der geforderten Qualität nur in Teilen
+       bekannt (z.b. bzgl. änderbarkeit)
+
+- Software-System:; Ein System von miteinander kommunizierenden auf software-
+  Komponenten..
+
+- Software-Engineering (Lehre von der Softwarekonstruktion):
+  - Notwendigkeit entstanden aus Softwarekrise: Entwicklung komplexer SW-Systeme
+    ist anspruchsvoll --> benötigt professionelle Herangehensweise wie in
+    anderen Ingeiersdisziplinen
+  - Def: Die Anwendung eines sytematischen, disziplinierten, quantifizierbarem
+    Ansatz für die Entwicklung, den Betrieb und die Wartung von SW
+    - geoordnetes Vorgehen über den gesamten Lebenszyklus hinweg
+	- SW-Lebenszyklus
+		- Planung (Ob?) (auch: Vorbereitungsphase):Fachliche, ökonomische und personelle Durchführbarkeit betrachten
+			- Voruntersuchen machen, um¨
+				- zu realisierendes Produkt auszuwählen (z.b. anhand eiener Marktanalyse oder Kundenumfrage)
+				- zu realisierendes Produkt grob zu spezifizieren (z.b. festlegung der zentralen funktionalen Anforderungen und ualitätsanforderungen)
+				- Machbarkeit zu eruieren (z.b. Überprüfen der fachlichen Machbarkeit, Einschätzen der Risiken, Abschätze des Aufwands und der Benötigten Zeit für die Umsetzung)
+			- ziel: Projektauftrag 
+		- Definition/Analyse (Was?) (auch: Analyse Phase, Requirements Engineering): Anforderungen ermitteln und in ein ANforderungsmodell übertragen
+			- Ziel: Alle bekannten funktionalen und nichtfunktionalen ANforderungen 
+				- bei Kunden/Anwendern/Stakeholdern erheben
+				- in für Weiterverarbeitung geeigneter Form festhalten
+			- Ist selber Prozess mit eigenen Phasen, z.b.L: Ehebung, Analuse, validierung
+			- Funktionale Anforderungen: 
+				- Aussagen über FUnktionen, die das System bereitstellen sollte, wie das System zu bestimmten Eingaben reagiern sollte und wie es sich in bestimmten Situationen verhalten sollte.
+				- Teilweise auch explizit was das System nicht tun sollte
+			- Nichtfunktionale ANforderungen: 
+				- Auflagen an die Services oder funktionen, die von dem System angeboten werden. Anforderungen an ads Timing, an den Entwicklungsprozess und an standards. 
+				- Beziehen sich häufig an das ststem als ganzes. Normalereise nicht nur an einzelne features/services
+		- Entwurf (Wie?) (auch: Design): Anhand der Anforderungen die grundlegenden Komponenten und deren Zusammenspiel innerhalb eines SW-Systems entwickeln (SW-Architektur)
+			- Programmieren im großen
+				- Ausgangspunkt: Ergebnisse der Definitionsphase (funktionale und nichtfunktionale Anforderungen
+				- ziel: Festlegung der grundlegenden Bausteine, die das System haben muss und wie diese zusammenarbeiten
+					- z.b. Architektur, interne Strukturen, Datenflüsse, Komponenten und Schnittstellen
+					- hier auch zugrif auf existierende Modelle (z.b. Architekturmodelle) möglich (Prinzip: Wiederverwendung)
+						- z.b. Dreischichtarchitektur (quasi MvC)
+							- Presentation tier
+								- user interface: hauptfunktion ist die aufgaben in twas vom Benutzer verstehbares zu übersetzen
+							- Logic tier
+								- koordiniert anwendung, prozesskommandos, macht logiche entscheidungen und evaluationen, fuuhrt berechnungnen durch. 	
+								- Bewegt Daten zwischen den beiden umfassenden Schichten
+							- Data tier						
+								- Speicherung der Informationen und abruf von Datenbank oder Dateisystem. Liefert daten an logic tier. 
+		- Implementierung: Umsetzen der Anforderungen in Programmcode entsprechend des ENtwurfs
+			- (Arbeitsteilige) PRogrammierung der einzelnen Komponenten des Systems
+			- Integration der einzelnen Komponenten zum Gesamtszstem
+			- Einhalten von Standards (z.b. Coding Conventions, damit füur Teammitglieder code leicht lesbar und bearbeitbar)
+			- Dokumentation
+			- Qualitätssicherung
+		- Einführung: Fertiggestelltes Produkt vom Kunden anehmen lassen und beim ANwender i Betrieb nehmen
+			- Kunde führt die (im vofeld definierten) Abnahmetests durch
+				- Wenn Produktverhalten entsprechend der spezifizierten Anforderungen/ Abnahme des Produkt
+					- Einführung und übergabe der Veranwortung (Installation, Schulung, Inbetriebnahme)
+					- Abschlussrechnung wird gestellt
+				- Anderenfalls: Dienstleister muss nachbessern, danach erneute Abnahmetests
+		- Betrieb/Wartung: Im Betrieb auftretende Defekte beheben; ANpassungen an sich ändernden Umweltbedingungen vornehmen; Neue ANforderungen umsetzen
+			- 4 Kategorien von Wartungsaktivitäten
+				- Stabilisierung/Korrektur: Entdeckte ehler beheben
+				- Optmierung/Laufzeitverbesserung (z.b. anhand er Erfahrungen aus Betrieb)
+				- Anpassung/Änderung: Änderung bestehender Funktionen (z.b. aufgrund von Gesetzesänderungen oder änderungen in der technischen Infrastruktur)
+				- Erweiterung: FFunktionale Ergänzungen
+		- Stilllegung
+		- Phasenübergreifend: Projekt- und Qualitätsmanagement
+			- Projektmanagement: Hinbekommen, dass es so abläuft
+				- Projektmanagement bildet organisatorischen RahmenL Initiieren, Planen, Steuern, Kontrollieren und Abschließen von Projekten
+					- Hauptaufgaben über ges. Lebenszyklus hinweg
+						- Augleich zw konkurrierenden Randbedingungen, wue Ynfabgm qyakut¥atm Zeutm Budgetm Ressourcen, Risiken
+						- Pflege der Kommunikation mit Kunten, Stakeholdern,...	
+			- Qualitätsmanagement
+				- alle zu erfüllenden Aufgaben, die für die herstelllung eines qualitativ hochwertigen Produks notwendig sind
+				- zentrale verfolgte Fragestellungen:
+					- Welche Qualitätsmerkmale mus Produkt in welcher Weise erfüllen?
+					- Wie können diese Merkmale effizient erreicht werden?
+					- Wie kann man überprüfen ob/inwieweit die Merkmale erfüllt werden
+				- konstruktives, sowie analytisches QS (zähne putzen, zahnarzt)
+			- QM hand in hand mit PM
+			
+		- Die einzelnen phasen können stark miteinander verwoben sein, wiederohlt durchlaufen werden oder weiter unterteilt.
+  - Bestandteil der Praktischen Informatik.
+  - Beinhaltet SW-management, SW-Entwicklung, SW-Qualitätsmanagement
+   - Aufgaben (Phasen des Softwareentwicklungsprojektes)
+    - Klären Ob (Kosten/Nutzen-Analyse): Was könnte SW hier leisten, welchen
+      Nutzen brächte das?
+      - Nutzen: Fähigkeit eines GUtes ein bestimmtes Bedürfnis des
+        konsumierenden Haushalts befriedigen zu können
+        - maximieren durch aufdecken udn umsetzen wertvoller Anforderungen
+      - SE war für SW dann gut, wenn der erzielte Nutzen viel höher ist als die
+        aufgewendeten Kosten (und das auch solange SW verwendet wird)
+        - Kosten nminimeren (Effizienz):
+          - SW mit möglichst wenig Arbeitsaufweand fertigstellen
+            - Schlüsseötechnikenm: Wiederverwendung, Qualitätssicherung, Risikomanagement
+          - Künftige Kosten vermeiden
+            - Defektkorrekturen durch hohe Qualität vermeiden
+            - Keine Hohen Kosten bei späteren Änderungen mittels guter
+              Wartbearkeit (Aspekt von QUalität)
+    - Klären Was (Anforderungsermittlung):
+      - Funktionale Anforderungen: Was soll die SW tun?
+      - Nichtfunktionale A. (Welche sonstigen Eigenschaften sind notwendig)
+    - Klären Wie (Entwurf (Design)): Wie sollte die SW aufgebaut sein? (Architektur, Modulzerlegung)
+    - Bauen (Implementierung)
+    - Validieren/Verifizieren der Löäsung (Analytische Qualitätssicherung):
+      - Hat die SW die erwünschjten Eitgenschaften
+      - Qualität:
+        1. Grad in welchem ein System, KOmponente oder Prozess die
+        spezifizierten ANforderungen erfüllt.
+        2. Grad in welchem ein Syste, Komponente oder Prozess die Erwartungen
+        oder Bedürfnisse von Kunden oder Benuztzern erfüllt
+        - nicht die Qualität, sondern verschiedene Qualitätsmerkamle
+          - können sich auf Produkt oder Erstellungsprozess beziehen
+        - Qualität bneschreibt in welchem Ma´ßß die Erwartungen bzgl. der
+        Merkmale erfüllt sind
+        - Externe Qualitätsmerkmale (aus Benutzersicht)
+          - Benutzbarkeit (Usablility)
+            - Bedienbarkeit, Erlernbarkeit, Robustheit,...
+          - Verlässlichkeit
+            - ZUverlässigkeit, Verfügbarkeit, Sicherheit (Safety, Security)
+          - Brauchbarkeit
+            - Angemessenheit, Geschwindigkeit, Skalierbarkeit, Pflege,...
+          - ...
+        - Interne Qualitätsmerkmale (aus Entwicklersicht)
+          - ZUverlässigkeit
+            - Korrektheuit, Robustheit, Verfügbarkeit
+          - Wartbearkeit
+            - Verstehbarkeit, Änderbarkeit, Testbarkeit, Korrektheit, Robustheit
+          - Effizienz
+            - ANgemessenheiut, GEschw., Skalierbarkeit, Pflege,...
+          ...
+      - Analytische Qualitätssicherung:
+        - Produktorientiert: Konkrete Qualitätsmängel aufdecken und nachbessern
+        - Statisch durch: durchsichten, INspektionen, Modellprüfung,...
+        - Dynamisch durch: Test
+        - Bsp: Zahnarzt
+      - Konstruktive Qualit#ätssicherung
+        - Prozessorientiert: Qualitätsmengel von vernherein durch das Vorgehen vermeiden
+        - Vorbeugen ist besser als Heilen
+        - durch Prozessmanagement
+        - bsp: Zähne putzen
+    - Inbetriebnahme
+    - Verwalten des Vorgehens (Management): Prozess, mit dem obige Auifgaben
+      gelöste werden, gestallten (z.b. planen, Qualitätsmängel vorbeugen, ...)
+  - SE adressiert Produkt sowie Prozess
+    - Produkt: Gesamtheit der greifbaren Arbeitsergebnmisse
+      - Programmcode, Code für Test/Build/Instaklkkation..., Dokumentation,...
+    - Prozess: Gesamtheut zugrundeliegender allg. Konzepte/Verfahrensweisen
+      - Rollen, Aktivitäten, Methoden, Werkzeuge, etc..
+  - SE addressoert technische wie auch menschliche Aspekte
+    - Softwaretechnik wird von Menschen betrieben
+      - Haben Beschränkungen (Wissen, Kurzzeitgedächtniss, Kommunikaitonsvermögen)
+      - Zeigen variables Verhalten (ängstlich, aggressiv, beeinflussbar,...)
+    - Software wird von Menschen benutzt
+      - Soziotechnisches System
+  - Auswirkungen von schlechtem SE:
+    - aus Sicht der Kunden
+      - Geldverschwendung
+      - Bei  Firimen zusätzlich: RIsiko für das Unternehmen,
+        Abnahme der Konkurenzfähikeit
+    - Aus SIcht der  Benutzer
+      - Frustration
+      - PRoduktivität/Sicherheit/Kompfort niedrig
+    - Aus Sicht der Entwickler und Manager
+      - Überstunden
+      - Frustration, Motivationsverslust
+      - Behinderung der beruflichen Weiterentwickluing
+
+  - Software-Technik (englisch Software Engineering): Zielorientierte Bereitstellung und systematische Verwendung
+  von Prinzipien, Methoden und Werkzeugen für die arbeitsteilige,
+  ingenieursmäßige HGerstellung und Anwendung von umfangreichen SW-Systemen
+	  - Ingenieurmäßiges Handeln ist das schöpferische, optimale Lösungen
+	    anstrebende Vorausdenken (gedankliche VOrausbestimmung) von idR. technischen
+	    Erzeugnissen.
+
+	  - Prinzip: Ein Grundsatz, an dem man sein Handeln orientiert (Leitfaden)
+	    - AUs Erfahrungen und Erkenntnissen hergeleitet
+	    - idr allgemeingültig
+	    - Bleibt (lebenslang) richtig und nützlich
+	    - Beispiele:
+	      - Prinzip der Abstraktion: "Absehen von Konkreten, Herausheben des
+		Wesentlichen aus dem Zufälligen, das Beiseitelassen von Unewesentlichem,
+		das Erkennen gliecher Mekrkmale"
+	      - Prinzip der  Strukturierung: Rezduzierte Darstellug eines komplexen
+		Systems finden, die Charakter des Ganzen mit seinen spezifischen
+		Merkmalen wiedergibt
+	      - Don't Repeat Yourself: Vermeidung von Redundanz.
+	  - Methode: Planmäßig angewandte, begründete Vorgehensweise zum Erreichen
+	    festgelegter Ziele
+	    - Machen i.A. Prinzipien anwendbar.
+	    - Beschreiben Weg, oft mttels Aufteilung in Arbeitsschritte
+	    - Beispiele:
+	      - Entwurf von Programmen: Es kommen nur Seqquenz , Auswahl und
+		Wiederhohlung vor (Anw. des Prinzips der Strukturierung)
+	      - Use-Case-Analyse: Emittlung typischer Abläufe in denen der Benutzer
+		eines (zu entwickelnden) Systems dieses einsetzen möchte.
+	  - Werkzeug: idr. Computerprogramme, die ein Verfahren automatisieren oder eine
+	    Methode unterstützen
+	      - bleiben evtlö. nur für kurze Zeit relevant
+	      - Beispiele:
+		- SPezielle Testwerkzeuge (JUnit 4)
+		- Spezielle Werkzeuge zur Versionsverwaltung (SVN, Git)
+		- Spezielle Build-Werkozeuge (Maven)
+
+Addon
+- Unterschiedlichiche Methoden für unterschiedliche Gegebenheiten benötigt
+	- Anforderungserhebnug
+		- Individualsoftware vs Standardsoftware
+			- Individualsoftware
+				- (Ein) konkreter Kunde gibt SW in AUftrag
+				- Kunde ist hinsichtlich ANforderungen (einigermaßen) zugänglich 
+			- Standardsoftware/Web-Dienst
+				- Potentiell (sehr( viele verschiedene Kunden/Nutzer
+				- Verschieden in Bezug auf Wissen, Wünsche, Vorlieben, Bed¨ürfnisse, Gedult, Risikofreude, Lern- und Innovationsbereitschaft...
+				- idr Spektrum schwierig zu verstehen um die richtigen Anforderungen zu ermitteln
+				- z.b. MS Office
+		- Rolle des Domainwissens
+			- Rein softwaretechnische Domain
+				- z.b. Betriebssystemkern, Compiler
+				- SW-Enginieure verstehen Anforderungen (weitgehend) ohne fremde Hilfe)
+			- Domaäne mit komplexer Fachlichkeit
+				- SW=Ingenieure sind bei Anforderungen naiv
+				- Anforderungen müssen von Fachspezialisten geliefert werden. Kommunikationsprobleme
+				- z.b. Berechnung des Kreditausfallrisikos einer Bank
+			- Faustregeln: 
+				- wenn interaktive Benutzungsschnittstelle, ist die SW nie rein technisch
+				- Domäne ist immer vielschichtiger als man denkt
+	- Benutzbarkeitsgestalltung
+		- Geschulte vs nicht geschulte Benutzer
+			- geschulte, professionelleBenutzer
+				- z.b. SW-Ingenieure für ein API-basiertes SW produkt
+				- z.b. FLuglotsen
+			- gering odr gar nicht ausgebildete Benutzer
+				- SW schierieger ymzusetzen, da gutes Verständniss für Benutzbarkeitsgestallltung notwendig
+				- z.b. MS Word, Pkw-Navigationssystem
+	- Kleine vs. große Projekte
+		- kleine Projekte
+			- manche Methoden des SE nicht nötig (evt. sogar kostenschädlich)
+			- Verletzung der nuotigen Methoden macht Erfolg zwar mühselig aber nicht unmöglich
+			- z.b. 2 Entwickler für wenige Wochen
+		- Kontinuum von klein nach sehr groß
+		- sehr große Projekte (evt. sogar verbunden mit HW-Entwicklung
+			- Kompetent angewandte SWT ist einzige Chance für Erfolg
+			- riesige Palette von Methoden zu erwägen
+			- Projektmanagement extrem bedeutsam
+			- z.b. hunterte/tausende Entwickler über mehrere Jahre
+			- z.b. MS Office, SAP, Linux=Kern
+	- Qualitätssicherung
+		- Relevanz von Näherungswerten
+			- Kein Vorkommen von Näherungswerten
+				- funktionale Anforderungen können prinzipiell genau erfüllt werden
+			- komplette und präzise Lösung (noch) nicht möglich
+				- z.b. Soracherkennung
+				- andere Herangehensweisen bei der Qualitätssicherung otwendig
+		- Anspruch an Verlässilichkeit
+			- SW versagen kann durch Mensch ausgeglichen werden
+				- z.b. Fehlerhafte Silbentrennung in textverarbeitung
+				- z.b. unsinnige Vorschläge eines Routenplaners
+			- SW Versagen versursacht etwas schlimmes
+				- z.b. Autopiliot in Verkehrsflugzeug; ABS-Software m AUto; Kontoführungssoftware einer Banke
+Addon (ende)
+
+
+- Ingenieurwesen (damit auch SE) ist auch erfahrungsgeleitetes Vorgehen angewiesen
+- normales Vorgehen 
+	- wünschenswert aber idr nicht uneingeschränkt möglich (Routine vs. INnovation
+	- etw so machen wie üblich
+	- wissen wi. tun es routinemäßig
+	- kennen Erfolgsfaktoren
+	- kennen RIsikofaktoren
+	- Kennen Anwendbarkeitsbereich
+	- Erfolgszuversicht
+	- Erfahrungswissen und Ureilskraft erwerben, damit µuoglichst oft normal möglich 
+		- Domäne der Profis
+	- wissen über normales Vorgehen
+	- Wissen fur normales vorgehen ist idr in Form von Mustern 
+- radikales vorgehen
+	- SW-Entwickler neigen zu radikalem Vorgehen
+	- z.b. Tacoma-Narrows-Brücke
+		- Moisseifs Konstruktion lag zu weit Außerhalb des Bereichs, über den es Erfahrungen gab
+		- Einzelne Eigenschaften verstanden, nicht aber deren Zusammenwirken, woraus emergente Eigenschaften entstanden
+	- Emergenz: Herausbildung von neuen Eigenschaften (emergente Eigenschaften( eines Systems infolge des Zusammenspielsseiner Elemente.
+		- Emergente eigenschaften
+			- lassen sich dabei nicht (oder jedenfalls nicht offfensichtlich) auf Eigenschaften der Elemente zurückführen, die diese isoliert aufweisen
+			- nur beherrschbar durch Erfahrung. Nicht durch eine Theorie komplett vorhersagbar
+	- nur grob (allgemein, nicht konkre) wissen, wie es geht
+	- Erfolgsfaktoren nur teilweise kennen
+	- Risikofaktoren nicht bekoant
+	- Anwendbarkeitsbereich höchstens ansatzwerise verstanden
+	- Projekterfolg lediglich erhoffbar	
+	- mit Grundlagenwissen besser bzu bewälltigen
+	- Domäne der Anfänger
+	- Bereiche
+		- Ziele (unverstandene ANforderungen). WAS nicht verstanden
+		- Konstruktuion (unverstandener Entwurf). WIE nicht verstanden
+			- z.b. wegen emergenten Eigenschaften
+			- z.b. weil es sehr viele Teile braucht)
+		- Prozess *unverstandene Mehtodik). VERFAHREN nicht verstaden (mit denen man zu konkreten anforderungen und tragfähigem Entwurf gelangt
+	- Hierfür gibt es Methden/Ideen, die dabei helfen ein (teilweise) nicht normales vorgehen (möglichst oft) zum erfolg zu führen
+- Radikal vs Normal: 
+	- möglichst viel so machen wie üblich. 
+	- möglichst wenig neu/ganz anders
+		- meist radikaler Anteil notwendig. Bei dnormalem Projekt nur unbedeutende radikale Anteile/Aspekte
+	- idr nicht entweder normal/radikal, sondern bzgl der einzelnen Aspekte (Einzelteile des Resultates->Produkt, Arbeitsschritte Prozess)
+	- immer normal schließen hochinnovative Projekte aus
+		- daher Spannungsfeld
+			- risokorarme Projekte (wenig radikaleds VOrgehen nötig) können nicht serrhr innoativ sein
+		- innovative Projekte (viel radikales VOrgehen nötig) sind stets riskant
+	- hochinnovative Funktionen nach außen können w¨nschenswerterweise intern technisch oft nicht-radikal sein.
+	- übergang fließend 
+	
+- Grundsätzliche Klassen von Problemen, die das SE adressiert
+	- Produktbezogene Probleme
+		- Anforderungen (Problemraum) (Was wollen wir bauen?)
+			- Teilprobleme (davon herauszufinden, was gebaut werden soll)
+				- Problemdomänen komplex
+				- Fachexperten können Bedarf nicht gut genug ausdrücken
+					- bei sehr innovativen Anwendungen gibt es keine Fachexperten
+				- Fachexperten haben zu wenig Fantasie, sich SW-Möglichkeiten aauszumalen
+				- Verschiedene Gruppen von FAchexperten sind nötig
+					- bringen wiedersprüchliche Anforderungen ein (z.b. ewegen INteressenkonflikten)
+				- Fachexperten und Technikexperten benutzen verschiedene manchmal inkompatible Termiologie und sehr verschiedene Darstelllungsformen 
+				- Anforderungen ändern sich im LAufe der Zeit
+		
+		- Entwurf (Design, Lösungsraum) (Wie sollen wir es strukturieren)
+			- Teilprobleme (doavon herauszufinden, wie SW strukturiert werden sollte um Req gut zu erfüllen)
+				- Lösungsmöglichekeiten (er)kennen
+				- Inakzeptable herausfiltern
+				- Wirkung der Möglichkeiten auf die Qualitätseigenschaften verstehen
+				- Prrioritäten gegeneinander abwägen 
+					- meist nur per Umrechnung in Kosten möglich
+						- oft aber sehr dubios/künstlich
+		- Probleme der SW-Entwickklung häufig in zsmhang mit Komplexität des Produkts: 
+			- System besteht aus vielen Einzelteilen
+			- System hat emergente Eigenschaften
+			- Produktkomplexität liegt meist in beidem:
+				- Prolembraum: ANforderungen 	
+				- Lösungsraum			
+ 	- Prozessbezogene Probleme
+		- vor allem eine Folge der Produktkomplexität
+		- Diverse psyscho-soziale Probleme, u.a. kognitive Beschränkungen, Mängel der Urteilskraft, Kommunikation, Koordination, Gruppendynamik, verborgene Ziele, Fehler
+			- Teilprobleme (entstehen aus Prozess heraus, hängen nur wenig von Produkt ab):
+				- Kognitive Beschränkungen (z.b. Kurzzeitgedächtnis kann nur ca 7+- 2 elemente aufnehmen
+				- Mängel der Uteilskraft
+				- Kommunikation/Koordniation: Schwierigkeiten vorhandene Informationen stets korrekt und rechtzeitig weiterzugeben
+					- z.b. individualle Abneigungen
+						-  Introversion: .. gegenn Kommunikation allgemein 
+						- Aversion: gegen bestimmte Personen
+				- Gruppendynaik
+					- z.b. Groupthink: gewisse (notwendige() kritische Fragen werden nicht mehr gestellt
+					- z.b. Selbsterfüllende Prohezeihungen: "Wir überziehen unseren Liefertermin immer."
+				- Verborgene Ziele (hidden agendas): Mensch handeln nicht immerim Interesse des Projekts, sondern haben persönliche (meist unausgesprochene) Ziele
+					- z.b. selbst viel lernen, spaß bei der arbeit haben,. möglichst elegante Lösungen finden , früh nach hause gehen
+				- Fehler
+	- problembereiche z.b. überlappend
+
+-	- No Silver Bullet: Kaufen statt bauen; Prototyping; Inkrementelle Entwicklung; Herausragende Entwerfer/innen
+	
+- Lösungsansätze
+	- Technische Ansätze
+		- lassen sich nicht weit genug konkretisieren um in Notation oder WErkzeuge überführt zu werden
+		- Abstraktion
+			- Beschreibe x durhc etwas einfachereres, das aber hinsichtlich der relevanten Eigenschaften gleich ist
+			- alt.: Gruppierung gleichartiger Dinge gemäß einer Gemeinsamkeit und Ignorieren der sonstigen Untershide
+				- EIne Viezahl von Elementen auf eine Idee reduziert
+			- z.b. Funktionen (funktionale Abstraktion), Datentypen (Datenabstraktion), Klassen (beides)
+			- z.b. für Beschreibung von Produkten/Produktteilen, Vorgehensweisen,...
+		- Wiederverwendungen
+			- Spezialfall von Abstraktion (nicht nur Begriff, sondern auch damit verbundene Details mehrfach verwenden)
+			- von Programmcode bzw. Komponenten; Entwurfsüberligungen bzw. -muster/Entürfe/Architekten; Prozessmuster und Prozesselemente; PRozesshilfsmittel (DOkumentschablonen, Checklisten,...); (Software-)Werkzeuge
+			- 2 Hautziele:
+				- Senkung des Risikos
+				- Senkung der Kosten
+			- Hauptrolle von Produktivitätsverbesserungen im SE
+				- Selbst normales VOrgehen kann ungünstig sein, wenn Teile selber entwickeltl statt bewährte
+		- Automatisierungen
+			- Übertragen einer wiederholt xu erledigenden Tätigkeit an den Computer
+			- spart zeit, und damit kosten
+			- vermeidet triviale Durchführungsfehler
+			- kann als spezialfall von Wiederverwendung betrachtet werden
+			- Softwarwerkzeug: AUtomatiseirungsprogramm, dass flexibel für viele Situationen einsetzbar ist
+				- z.b. GIT(Versionsverwaltung), JUnit (Testframework)
+	- Methodische Ansätze
+		- begründen Vorgehensweise zum Erreichen festgelegter Ziele 
+		- idr keine Kochrezepte, bzw. schwach vorkonstruiert
+		- Durchfuuhrung benötigt menschliche Intelligenz/Urteilsvermöpen
+		- Anforderungsermittlung
+			- grund: nicht auf intuitiven Eindruck was gebaut werden sollte verlassen. Anforderungen systematisch ermitteln
+			- prinzipien/aufgaben:
+				- Erhebung der Anforderungen bei allen Gruppen von beteiligten
+				- Beschreibung für alle Beteiligten verständlicher Form
+				- Validierung anhand der verschriftlichten Form
+				- Spezifikation: Übertragung in zur Weiterverarbeitung günstige Form
+				- Trennung von Belangen: Anforderungen kopplungsarm ausdrücken
+				- Analuse auf Vollständigkeit: Lücken aufdecken und schließen
+				- Analyse auf Konsistenz: Wiedersprüche aufdecken und lösen
+				- Mediation: Wiedersprüche, die auf Interessengegensätzen ebruhen einer Lösung zuführen (Kompromiss oder Win-Win)
+				- Verwaltung: Übermäßige Anforderungsänderungen eindämmen, Anforderungsdokument immer aktuell haltenb
+		- Entwurf
+			- Grund: struktur und Funktionsweise vorab im Ganzen festlegen um bessere QUalitätzu ermöglichen und arbeitsteilige Realisiserung zu erleichtern
+			- Prinzipien/Aufgaben
+				- Trennung von Belangen: Belange (insb. FUnktionen) so voneinander trennen, dass man sie einzeln verstehen, realisieren und veränden kann
+				- Architektur: Treffe globale Festlegungen für die Gestaltung nicht abtrennbarer Belange *insb: nichtfunktionaler Anforderungen)
+				- Modularisierung: Verberge die Umsetzung von Belangen möglichst hinter Seiner SChnittstelle (information hiding)
+					- Belang ist dadurch lokal und einfacher zu ändern
+				- Dokumentaition: Entwurf und Entwurfsentscheidungen schriftlich festhalte (jew. zweck, Alternativen, Argumentation)
+		- QUalitätssicherung
+			- Grund: oft geschehen Fehler, die schwere mängel in SW verursachen können, welche vorgebeugt werden sollten
+			- Prinzipien
+				- Analuztische QUalitätssicherung
+					- Produktorientiert: konkrete Qualitätsmangel aufdecken und nachbessern
+					- statisch durch: DUrchsichten, Inspektionen, Modellprüfung,...
+					- dynamisch durch: Test
+					- z.b. zahnarzt
+				- Konstruktive Qualitätssicherung
+					- prozessoruientiert: Qualitätsmängel von vornherein durch das Vorgehen vermeiden
+					- vorbeugen ist besser als heilen
+					- durch Prozessmanagement
+					- z.b. zähne putzen
+		- Projektmanagement
+			- Grund: bau vgrößerer SW verlangt nach Planung, Leitung und Koordination
+			- Prinzipien/Aufgaben:
+				- Zielsetzung, Prioritäten, Pläne, individuelle Aufgaben müssen allen Beteiligten klar sein und sie sollten sich damit identifizieren
+				- Stabile Anforderungen
+				- Iteration: Proket muss in kurzen Abst¨anden wohldefinierte Ergebnisse hervorbringen
+				- KommunikationL Informationen müssen rechtzeitig die richtigen Personen erreichen
+				- Konflikte zw Beteiligten auf zielführende Weise lösen
+				- RisikomanagementL Identifiziere wichtitige unerwünschte Ereignisse,m leite vorbeugende Maßnahmen ein oder bereite Gegenmaßnahmen vor. überprüfe regelmäßig
+				- normales vorgehenL vermeide radikales vorgehen, essei den der erwarteteteNutzen rechtfertigt es 
+				
+
+
+- Softwareprozess
+	- Abläife, die in einem SW-Projekt geschehen
+		- entweder deskriptiv gemeint (beschreibend, was tatsächlich geschieht)
+		- oder präskriptiv (als Vorschrift, wie es abzulaufen hat)
+		- Teile des Gesamtprozesses auch oft Prozess genannt (z.b. testprozess)
+- Prozessmodelle (auch: Vorgehensmodelle)
+	- inwiefern helfen SW geordnet und zielgerichtet zu entwickeln
+	- beispiele inkl vor und nachteile
+	- Einschätzen für welche Arten von SW-Projekten welche Prozessmodelle geeignet
+	
+
+	- Grund: Da reale Projekte unterschiedliche Eigenschaften haben (z.b. nur teil des Lebensyklusses sit relevantl rein sequenziele Abarbeitung nicht sinnvoll/realisierbarm....) ais SW-Lebenszyklus verschiedene Prozessmodelle entwickelt
+		- adressieren (teilweise) unterschiedliche Projekttypen
+		- verfolgen (teilweise) unterschiedliche ziele
+	- DefL Eine Schablone, die die Gemeinsamkeiten der Abläufe in vielen verschiedenen (konkreten) Projekten erfasst (Projektübergreifend)
+		- meist zumindest halbwegs präskriptiv gemeint
+	- werden besrieben mittels Hauptkonzepten:
+		- Rolle: Abstraktion der Aufgabe einer Person in einer bestimmten Situation (z.b. Entwickler, Tester, PM)
+			- Person hat oft mehrere Rollen
+			- Welche gibt es, wie genau sind sie definiert?
+		- AktivitätL Abstraktion für Sorte zielgerichteten Handelns in einem Projekt 
+			- z.b. Anforderungsvalidierung, Architekturentwurf,...
+			- welche, wie genau definiert, Entscheidungsspielraum über e=EInsatz oder ARt deseinsatzes; Gibt es Checklsten oder Vorgaben über Werkzeuge, Methoden, RIchtlinien?
+			- gibt es festen ABlaufplan oder weichere Kriterien für Abfolge von Aktivitäten; sind Eintritts-/Austrittsbedingungen definiert
+		- Artefakt: Abstraktion für eine Sorte von Arbeitsergebnis eineri Aktivität
+			- Welche; wie genau definiert; wie verbindlic; gibt es vorlagen?
+	
+	- Beispiele
+		- Wasserfahllmodell
+			- Aus Aktivität resultiert ein Dokument
+			- Übergang zu nächsten Schritt, wenn voheriger fertig
+			- Rückkopplungen (Rücksprünge) auf angrenzende Stufen beschränkt
+			- Benutzerbeteiligung nur in Definitionsphase (Anforderungserhebung)
+			- Systemanforterung --> SoftwareAnforderung-->Analyse00>Entwurf-->Kodierung00>Testen00>Betrieb
+			- Nachteile
+				- bei unklaren\nicht gut verstandenen Anforderungen: chaos, da späte Anderungen das Prozessmodell durchbrechen
+					- daher entweder enorm teure gründliche ausarbeitung der Dokumente am anfang
+					- oder Dokumente werden nicht mehr korrekt gepflegt
+				- bei sich (von außen verändernden Anforderungen
+				- bei nicht beherrshten Architekturen (z.b. Innovationen)
+				- durch :uber die Mauer werfen"
+					- Kommunikation nur über Dokumente: Desaster, wenn Doikumente nicht gelesen werden
+					- verschiedenes Persoonal: Verständnis fuur Phänomene von Phase N ist in N-1 weitgehend verloren
+		- V-Modell
+			- Integriert Qualit'tssicherung in Wasserfall: während jeder Phase Testen
+			- ANforderungsdefinition -(Anwendungsszenarien)-> Abnahmetest;(Bis hier Validierung, ab hier Verifikation) Grobentwurf -(Testfälle)-> Systemtest; Feinentwurf -(Testfälle)-> Integrationstest; Modulimplementation -(Testfälle)->Modultest
+			- Trennung zwischen spezifizierenden und realisierenden Phasen
+				- jder spezifikationsphase eine Realisierungs- und Testphase gegenübergerstellt
+
+		- Iteratives VOrgehen: An projektergebnis in mehreren SChritten herantasten (statt in einem Rutsch anfertigen)
+			- Vorteile: 
+				- Senkt komplexität in einelnem SChritt (beherrschbarer)
+				- kann mit unklaren und verändlerlichen Anforderungen etx. umgeen
+				- verlangt engere Kommunikation derbeteiligten
+				- senkt Neigung zum "über die Mauer werfen"
+			- Nachteile (in wirklichkeit eig keine Nachteile)
+				- gewisse Doppelarbeit (wg. zwischenlösungen) und at deshalb theoretisch höheren aufwand
+				- verlangt engere Kommunikation der Beteiligten
+			- Iterartion: Prozess mehrfachen wiederholens gleicher oder ähnlicher Handlungen zur Annäherung an eine Lösung oder ein bestimmtes Ziel
+			- Beispiele
+				- Prototpmodell
+					- Baue anfangs (Teil)System zum ewgwerfen um kritische Anforderungen besser zu verstehen
+						- gedanke des wegwerfens: späterr oft schwer behebbare Fehler. Oft aber nicht gemacht
+					- Danach folgt noch ein Prototyp oder z.b. Wasserfallmodell
+				- Inkrementelles Modell
+					- Baue das Gesamtsystem schrittweise
+					- In jedem schritt nur neue Teile hinzugebaut aner (theoretisch) nie etwas Existierendes verändert
+				- Iteratives Modell (evolutionäres Modell)
+					- Baue das Gesamtsystem schrittweise
+					- In jedem schritt werden neue Teile hinzugebaut und wo nötig auch existierende verändert.
+			- Agile Methodenbeispiele
+				- stellen verfahren und methoden zur verfügung, um
+					- Flexibilität zu erhöhen
+					- den kunden besser einbeziehen zu können
+					- den Nutzen (im Verhältnis zu den kosten) zui optimieren
+				- Beispiele
+					- Scrum
+					- eXtreme Programming
+					- Kanban
+				- Entsprechen (mehr oder weniger) dem Agile Manifesto (2001):  Wir erschließen bessere Wege, Software zu entwickeln, indem wir es selbst tun und anderen dabei helfen. Durch diese Tätigkeit haben wir diese Werte zy schätzen gelernt (Werte af der rechten seite zwar wichtig, aber die auf der linken Seiter werden höher eingeschätzt):
+					- Individuen und Interaktionen mehr als Prozesse und Werkzeuge
+					- Funktionierende Software mehr als umfassende Dokumentation
+					- Zusammenarbeit mit dem Kunden mehr als Vertragsverhandlung
+					- Reagieren auf Veränderung mehr als das Befolgen eines Plans
+				- Reagieren auf Veränderungen
+					- Fachliche und technische Durchtringung ist oft/eigentlich nicht mit Projektstart beendet
+					- Viele agile Methoden sind daher iterativ aufgebaut.
+				- 12 Prinzipien agiler ENtwicklung
+					- frühe und kontinuierliche Auslieferung von wertvoller SW (zur  Zufriedenstellung des Kunden)
+					- Nutzen von Veränderungen zum Wettbewerbsvorteil des Kunden
+					- Informationsübertragung nach möglichkeit im Gespräch von Angesicht zu Angisicht 
+					- Ständiges Augenmerk auf technische Exzellenz und gutes Design
+					- Selbstreflexion des Teams über das eigene Verhalten zur Anpassung im Hinblick auf Effizienzsteigerung
+					- ...
+		
+		- wichtigste von unterschieden zur unterscheidung von Prozessmodellen: wie präzise/strikt/weit voraus wird geplant
+			- Wasserfallljmodell (stark): möglichst präzise und strikt für das ges. Projekt im vorraus
+			- Iterative Modelle (mittel)
+				- so weit un dso präzise wie möglich
+				- nicht strikt (nötige Veränderungen werden akzeptiert)(
+				- nur für wenige Iterationen im voraus
+			- Agile Prozesse (wenig)
+				- Nur so viel Planung wie unbedingt nötig
+				- lieber ziele als Pläne (wegen Flexibilität)
+		- Auswahl der Prozessmodelle nach den gegebenen Projektcharakteristika
+			- strikt, stark plandende Modelle:
+				- wenn ein (im vorfeld bekoanntes) wohldefiniertes Resultat in definierter Zeit erreicht werden muss
+				- wenn sehr große (insb verteilte) Projektgruppen zu koordiniert werden müssen (hier sind plände und dokumente zur Koordination schwer vezichtbar)
+				- Reines Wasserfallmodell ist trotzdem kaum zu empfehlen
+			- Agile Modelle:
+				- Bei hoher Unsicherheit über die Anforderungen (bzgl. Inhalt, Prioritäten)
+				- bei häufigen Änderungen von Außen (bzgl. Anforderungen, Zeitplan, Budget, Qualitätsziele,...)
+			- Universal-Prozessmodelle
+				- erheben Anspruchh universell geeignet zu sein
+				- Beispiele
+					- Rational Unified PRocess (RUP)
+					- V-Model XT
+						- in Auftrag der deutschen Regierung entwickelt, für Projekte in öffentlicher Hand und im militärischen umfeld)
+						- baut V-Modell (Erweiterung des Wasserfalmodells auf) (siehe oben)
+						- für sehr große Projekte konzipiert, auch an kleinere anpassbar.
+						- unterstützt unterchiedliche verfahren, auch agile SW=Entwicklung
+						- Enthält Produktmodell (Artefakte), Rollenmodell (32 ROllen) und Abläufe
+							- modular aufgebaut, in Vorgehensbausteine zusammengefasst
+							- 4 verbindliche vorgehensbausteine
+								- Projektmanagement
+								- Qualitätssicherung
+								- Konfigurationsmanagement (alle im Projkelt erstellten Ergebnisse nachvillziehbar ablegen und sichern)
+								- Problem und änderungsmanagement
+							- jedes Artefakt durchlüaft idr die 23 zustände: in Bearbeitung, Vorgelegt, Akzeptiertt
+							
+				- stark an Projektbedingungen anpassbar
+				- Umfangreich, nicht leicht zu verstehen
+	
+
+		- Inkrementelles VOrgehen
+		- Iteratives VOrgehen
+		- Agile Software-Entwicklung
+			- sind eig viele unterschiedliche Verfahren, die auf den selben Grunds¨tzen basieren
+
+
+- Model
+	- def 1: Vereinfachtes abbild der wirklichkeit 
+		- abstraktion -> irreleante details ignoreren, relevante übernehmen. Was relevant ist abnh von zweck.ziel des Modells
+			- bi Modellbildung können die originale bereits existieren (Modelleisenbahn), müssen es aber nicht (Modell von Haus)
+			- die relevanten/wesentlichen aspekte sind z.b. Daten, die betrachtet/verändert werden sollen; Geschäftsprozesse; Rollen und zugriffsrechtte
+	- def 2: vereinfachte Nachbildung eines geplanten oder real existierenden Original-Systems mit seinen Prozessen in einem anderen befrifflichen oder gegenständlichen System. Untersheidet sich hinsichtlich untersuchungsrelevanten Eigenschaften nur innerhalb eines vom Untersuchungsziel abhängigen Toleranzrahmens vom vorbild
+	- ziel: Reduzierung von Komplexität
+	- Gutes Modell
+		- Die Bezieungen, die in der Realität gelten (zwischen realen Dingen) sind auch im Modell (zwischen Abstraktionen) gultig 
+	- Modelle sind relati, können also andere Modelle modellieren
+		- Softwareentwicklung ist ein solches Transformieren von Modellen
+			- Transformationsschritte sind z.b. Analyse, design und IOmplementierung
+	- Sichten
+		- Ein Modell, dass ausgewählte Aspekte eines Modells beschreibt
+		- komplexe Modelle meist als Menge von sichten dargestellt, nicht als ganxes
+		- bsp: system: Flugzeug
+			- Modelle: Flugsimulator, maßstabgerechtes Modell, Konstruktionsplan,....
+			- SichtenL: z.b. Entwurfszeichnungen (Elektroverkabelung, Kraftstoffsystem
+	- möglichst nur ein Modell (um inhaltliche Überschneidungen bei mehreren Modellen zu vermeiden
+		- ALlerdins mit Darstellung unterschiedlicher Sichten
+	- Grundlage für klare, verstuandliche Kommunikation nach außen um effizientes Arbeiten im Entwicklungsteam
+		- Vorraussetzung: Verwendung einer einheitlichen notation mit konsistenter Bedeutung --> UML
+- Notation
+	- Festhalten von Dingen und Verläufen in schriftlicher Form und mit vereinbarten symbolischen Zeichen
+		- Modelle hingegen müssen nicht schriftlich sein
+	- DiagammeL graphische Notation
+	- UML (Unified Modeling Language) hat sich als Notation (und Methode) zur Mpedllieriuung von SW-Produkten durchgesetzt
+	- 
+		
+		
+Unterschied Modelle und Notationen/Diagramme
+- UML
+	- (meistverwendete) Standard zur Modellierung von Software
+	- Zur Modellierung von sowohl Anforderungen (Problemraum: was?), als auch von der Software (Lösungsraum: wie?)
+	- wofür gebraucht
+	- grundszätzlicher AUfbau
+	- zentrale UML-Konventionen
+		- UML-Diagramme sind idr Graphen
+			- Knoten stellen Entitäten (Dinge) dar
+				- Rechtecke stellen Klassen oder Objete (Exemplar = Ausprägungen einer Klasse) dar
+					- Oberster Bereich: Name (zentriert/Fett)
+						- alle sog. Classifier (Klassen, Schnittstellen, Paketem,...) werden fett geschrieben
+				- Ovale stellen Funktionalit¨ten oder Anwendungsfälle dar
+		- Namen müssen in ihrem Namensraum (z.b. Paket) eindeutig sein
+			- Kanten sind Beziehungen zwischen Dingen
+			
+	- Strukturdiagramme: Beschreibung statischer Zusammenhänge
+		- Beschreiben den Aufbau
+		- Klassendiagramme
+			- Zweck/ziel: Beschreibt Struktur eines Systems: Entitäten und welche Beziehungen sie untereinander eingehen
+				- z.b. es gibt Kunden und bestellung, jede Bestellung gehört zu genau einem Kunden
+				-idr für eine bestimmte aufgabe
+				- vollständige Liste aller Methoden und Attribute meist Hinderlich, statdessen nur die die für die Darstellung er Story hilfreich sind
+					- daher ist ein Klassendiagramm meist eine unvollständige Sicht des gesamtsystems
+						- es können klassen oder Assoziatiionen fehlen, oder innerhalb der Klassen Attribute und methoden weggelassen oder unvollständi dargestellt werden oder bei Methoden bei Argumentliste der Ereignistuyp fehlen
+			- Einsatzgebiete
+				- Bei der Analyse (in analysephase=Definiitionsphase): Modellierung der Problemwelt (Domain)
+					- Konzepte der realen Welt strukturieren / abstrahiern 
+					- Sicht der Anwender/Auftraggeber auf die relevanten Teile darstellen
+					- idr mit nur wenigen UML-Notationselementen, um Kommunikation mit Anwender/Auftraggeber über Korrektheit/Vollständikeit zu erleichtern
+					- Objektmodell
+						- dient der Strukturierung der Anforderungen (die bisher meist halbstrukturiert in Use Cases vorliegen oder sogar ohne struktur)
+						(- mit dessen hilfe möchte ich in Analyse ein klassendiagramm erstellen) zitat Arno
+					- z.b. aus besonderm tisch einen Tisch mit attribut material machen
+				- Modellioerung der Lösungswelt
+					- Beim Design (in Entwurfsphase) des Sw-Systems
+						- Struktur des Systems festlegen
+						- Auf Basis des Modells der Analysephase das zu bauende System modelieren
+							- inkl Darstellung interner Strukturen
+						- z.b. aus Tisch wird: Tisch, TischGUI, TischDAO
+					- Bei Implementierung
+						- Struktur des Systems festlegen
+				- Auch bei der Qualistätssicherung und  Im Betrieb hilfreich
+
+				- Ein einzelnes Klassendiagramm ist bezieht sich immer nur entweder auf Problem- oder auf Lösungswelt
+			
+			- Klasse (repräsentiert eine Entität)
+				- Konzeptuelles Ding aus der Problem- oder Lösungswelt. (Nicht unbedingt Klasse im Sinne einer Programmiersprache)
+				- hat Name (im Singular), z.b. Konto
+				- kapselt Status (über Attribute) und das Verhalten (über Operationen) der Entität
+					- Typen der Attribute können angegebenen sein
+						- -kontoStand: float
+						- oder einfach nur kontoStand
+					- Signaturen der Operationen können angegeben sein
+						- +abheben(betrag:float):float
+						- -einzahlen(betrag:float)
+					- Sichtbarkeiten können angegeben sein
+						- + (public): Sichtebar für jedes ELement, das die Klasse sieht 
+						- - (private): Sichtbar nur für Elemente der klasse
+						- # (protected): In der Vererbungshierarchie darunter
+						- ~ (package): im sleben Paket
+			- Assiziation
+				- semantische Beziehung zwischen Entitäten
+					- semantische Beziehung: kennen sich und können interagieren (über Operationen oder Signale)
+				- können Namen haben (evtl. mit Richtungsangabe: ausgefülltes Dreicke)
+				- A-1..40-*-B : A kann mit beliebig vielen B in bez. stehen. B kann mit 1-40 A in beziehung stehen
+				- 1; *; 1..*; 3..7; kein wert-->keine schlussfolgerung
+				- Aggregation
+					- spez binäre Assoziation, drückt Teile-Ganzes-Beziehung aus
+					- Aggregat: Das Ganze
+						- hat leere Raute auf seiner seite.
+						- kann länger Lebensdauer als Komponentnen haben
+					- Komponente: Teil des Ganzen
+						- kann längere Lebensdauer als Aggregat haben
+					- bsp: Mensa besteht aus bel vieln Tischen und Stühlen, TIsche/Stühle ex idr auch nach schließung der Mensa
+					- Kommposition: 
+						- Sonderfall Aggregation
+						- Komponenten existieren nur in Zusammenhang mit ihrem Aggregat (wenn Aggregat gelöscht, weden auch die Komponenten gelöscht)
+						- Aggregat mit ausgefüllter Raute markiert
+						- bsp: Raum ex nur solange wie auch das Gebäude ex, zu dem er gehört
+				- Können in Assoziationsklasse gekapselte Attribute und Operationen besitzen, die diese näher spezifizieren
+					- z.b. zum Identifizieren einer Ausprägung einer Assoziation
+					- Assoziationsklasse 
+						- mit über gestrichelte Linie mit Assoziation verbnuden
+						- idr in Analysephase verwendet und später bei Entwurf aufgelöst. Auflösung indem:
+							- Attribute und Operationen auf die Klassen der Assoziation verteilt
+							- oder Assoziationsklasse wird als eigenständige klasse eingefügt
+						- bsp? Organisaition-*-*-Person Assotziation mit Spende Assoziationsklasse, die attribut jährlicherBetrag hat
+							- Auflösung: Organisation-1-*-Spende-*-1-Person
+				- - Einfache Assoziation
+				- -> Asspziation mit Navigationsrichtung (von welchem objekt kann ich welches erreichen?)
+				- -x-- Assoziation mit gesperrter Navigationsrichtung (von Wwelchem Objekt darf ich das andere nicht erreichen?)
+				- Rolle kann über Assoziationsenden geschrieben werden
+				- Vererbungshierarchien (is-a-Beziehung) mittes -|> (durchgezogene linie, leerer pfeil) 
+				- Schnittstellen implemntation mittels ---|> (gestrichelte linie, leerer Pfeil)
+					- Schnittstelle
+						-  mitels Schl¨sselwort <<interface>> über Name
+						- Definiert u.a. Liste von Operationen und Attributen, die öffentliche Sichtbarkeit haben
+					- zum anbieten einer Schnittstelle muss eine Klasse
+						- alle Operationen der SChnittstelle realisieren
+						- alle Attribute auf geeeignete Art und Weise umsetzen 
+							- es muss Zugriff geben. Das attribut selbst muss es nicht geben, z.b. kann die get methode wert aus einer DB oder das ergebnis einer Berechnugn zurückgeben)
+					- alternative Darstellung: strich von Klasse ausgehend mit kreis am ende unter dem Name des Interfaces steht.
+				- Abhängigkeit einer klasse von einer Schnittstelle
+					- Unterschied von Abhängigkeitsbeziehungen und Assoziationen: 
+						- Von Abhängigkeitsbeziehungen können keine Instanzen angelegt werden
+						- Abhängigkeitsbeziehung signalisiert, dass eine Klasse eine andere für ihre eigene Spezifikation oder Implementierung benötigt
+					- Darstellung: 
+						- A--<<use>>-->InterfaceB
+						- A-( InterfaceB (durchgezogener strich von A mit offenem halbkreis, darunter name des Interfaces
+					- bedeutet idr, dass ein Objekt einer klasse benötigt wird, die diese Schnittstelle anbietet
+					- bsp:
+						- Zeus--<<use>>-->IBewegbar<|--Mensch
+						- alternative darstellung: Zeus-(O-Mensch  (Strich von zeus mit offenem halbkreis, der an den kreis andockt, der von dem strich von mensch ausgeht
+			- Klassendiagramm, dass alle Notationselemente darstellt auf foolie 4.38				
+		- Objektdiagramme
+			- 
+		- Paketdiagramme
+		- Komponentendiagramm
+		- Profildiagramm
+	- Verhaltensdiagramme: Darstelung dynamischer Aspekte eines Systems
+		- Beschreiben Abläufe/Prozesse
+		- Aktivitätsdiagramm
+		- Anwendungsfalldiagramm
+		- Zustandsdiagramm
+		- Interaktionsdiagramme (Untermenge)
+			- Darstellung von zeitlichem Verhalten
+			- Sequenzdiagramm
+
+
+---
+klausurinfos
+
+- kopplung, kohäsion!
+- agile methoden aufzählen können

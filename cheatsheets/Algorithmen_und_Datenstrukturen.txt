@@ -1,0 +1,444 @@
+Klausurinfos
+-todo auf spicker herleitung der komplexität für radix und heapsort
+
+- modulo negativew zahlen
+- av. case (kommt. evt. nicht ran)
+  arith. mittel(bester case + 2.bester + ... + worst case)/n
+  gaußsche summenformel   n*(n+1)/(2/n) = (n+1)/2
+
+- abstrakte Datentypen kommen nicht ran, abstrakte Datenstrukturen schon!
+  --> ich muss in aufgabe die abstrakte Datenstrukturen nennen (z.b. Stack, Queue,
+  Binärbaum,...), aber nicht den abstrakten Datentyp (verwendete Datenstruktur
+  und welche Mothoden f+ür ihre umsetzung nötig sind)
+
+- Hashverfahren kommen aufjedenfall ran!
+- Kompression oder verschlüsselung
+- von RSA mathematische Grundlagen müssen wir nicht können, schon aber:
+
+
+- nur heap und radix sort müssen wir können, die anderen nicht
+
+komplexitätsberechnung - wie ausführlich? wie genau? falss genau, wie
+aufschreiben? möglich bei berechnung mit O-notation zu arbeiten? z.b.
+die äußere schleife O(n) durchläufe, darin O(n) mal die innere schleife,
+welche O(1) anweisungen hat
+
+- in zwischenberechnungen darf O-notation schon verwendet werden (am besten
+mit weg, kann aber wohl auch sofort O notation verwenden. definitiv darf ich
+beim weiterrechnen O-Notation des bereits berechneteen verwenden)
+- Berechnen sie komplexität für n=10  fragt er nicht!
+- jeweils beim  weiterrechhnen wie oft der abschnitt datsächlich ausgeührt wird
+  for 1 to m*m // O(m^2)
+    for 1 to m   // O(m^2) * O(m) = O(m^3)
+      for 1 to 100000 // O(m^3) * O(1) = O(m^3)
+
+      k = 1
+      while k  < m  // O(m^3)*O(log(m)) = O(m^3*log(m)) // muss nicht erst schreiben log_4(m)
+        k *= 4
+
+  gesamt: O(m^3) + O(m^3*log(m)) = O(m^3 * log(m))
+
+
+-komplexitätsklass
+- spicker darf doppelseitig beschifttet Wiederauffinden
+-
+
+
+- bei handsimulationen können 2-3 schritte in einem Baum gemacht werden, mittels
+durchstreichen, dann neuen Baum zeichenen
+- ca. 3 schritte (z.b. bei heapsort), dann "..."
+- komplexität heapsort im allgemeinen Fall herleiten:  heapify: log n
+
+
+
+
+Probeklausur:
+
+- aufgabe 4 kommt nicht ran
+- 5. Baum aufzeichenn und sagen Binärbaum verwendet.  Madjazenzmatrix verwendet
+  -
+
+
+
+
+
+Zusammenfassung Algorithmen und Datenstrukturen
+
+- Computerprogramm
+  - Endliche Folge von Befehlen und Anweisungen
+  - muss sowohl den Alg. als auch die Daten bzw. Datenstrukturen in von Rechner
+  verständlicher Form beschreiben.
+
+- Algorithmus
+  - Def1: vollständige und eindeutige Verfahrensvorschrift zur Lösung einer
+  bestimmten Klasse von gleichartigen Problemen
+  - Def2: endliche Geshamtheit exakt formulierter Regeln zur Lösung einer
+  bestimmten Klasse von AUfgaben
+  - formale Eigenschaften:
+    - Endlichkeit
+    - Determiniertheit
+    - Eingangswerte
+    - Ausgangswerte
+    - Effektivität
+
+- Komplexität ("Kompliziertheit")
+  - basiert auf Anzahl elementarer Schritte/Operationen, die zur Lösung des
+  Problems auszuführen sind
+    - best case, worst case, average case
+  - Ordnung des Verfahrens: Wachstum der Anzahl der Operationen mit steigender
+  Anzahl von Eingangswerten
+
+
+
+Datenstrukturen:
+  - siehe OneNote IntroProg:IntroProg-Notizzettel tabelle
+  - lineare Datensätze mit fester Länge
+    - Array:
+      - index-sequentielle Speicherung --> fortlaufende lückenlose belegung des
+      Speichermediums, über Index adressierbare Elemente
+      - Zugriff auf n-tes Element O(1)
+      - Einfügen am ende O(1), am Anfang/iwo O(n)
+      - Löschen mit aufrücken in O(n)
+      - Sortiertes Array: binäre Suche O(logn), sonst Lineare Suche O(n
+  - lineare Datensätze mit variabler Länge
+    - Stack: Last in First Out (LIFO)
+    - Queue: First in First Out (FIFO)
+
+  - Abstrakte Datentypen
+    - Verbud von Daten zsm mit Definition der zulässigen Zugriffsoperationen
+      - Gibt semantik der Zugriffsoperationen vor,
+      nicht aber deren Implementierung
+    - können zur Definition ander ADT verwendet werden
+
+
+    - Graphen
+      - endliche nichtleere Menge V, die Knoten enthält und Kangenmenge X,
+      die geordnete/ungeordnete Paare von Knoten enthält
+        G={V,X}
+        V = {v1,v2,v3,v4,...,vn}
+        X = {(v1,v2), (v3,v4),...}
+      - gerichteter Graph: Kanten haben richtung
+        - Pfeil über G und X
+
+      - Bäume
+        - Gericteter Graph, in dem bis auf Wurzelknoten jeder Knoten genau 1
+        Vorgänger hat
+        - Begriffe: Wurzel, Ast, Blatt, Kind, Elternknoten, ...
+
+        - Binärbaum:
+          - Baum, in dem jeder Knoten maximal zwei nachfolger besitzt
+
+          - Heap:
+            - Max-Heap: jeder knoten hat größeren Schlüssel als seine kinder
+            a[i].k ≥ a[2i].k und a[i].k ≥ a[2i+1].k
+            für alle i mit 2i < n und 2i+1 < n
+            - Heapify(A,i) // Heapbedingung für A herstellen, beginnend bei i
+              if(x < lc(x) v x < rc(x)) then swap(x, max(lc(x),rc(x))
+              (damit für alle x wieder gilt (x>lc(x) && x > rc(x)))
+              (pseudocode siehe spicker)
+
+
+      - Speicherung von Graphen
+        - Adjazenzliste: für jeden Knoten eine Liste der Knoten, die mit ihm
+        verbunden lind
+        - mathematische/algebraische Darstellung (siehe oben)
+        - Adjazenzmatrix
+          - Matrix mit |V| Spalten, matrix[i][j] gibt an ob zwischen Knoten
+          i und j eine Kante besteht (und wie diese gewichtet ist)
+          - bei gerichtetem Graph nur zur hälfte relevant (unter HD)
+
+    - Hashtabellen
+      - Speicherstruktur: Hashtabelle, z.b. Array
+      - Hashfunktion h: Abbildung,die jedem (mögl.) Schlüssel einen Index in der
+      Hashtabelle (Hashadresse) zuordnet.
+        - Meist nur wenig der mögl Schlüssel genutzt
+          --> Hashtabelle so dimensionieren, dass nur wenige Speicherplätze frei
+            --> h nicht injektiv --> k1, k2 Synonyme, falls h(k1) = h(k2)
+            --> Falls Synonyme in Schlüsselmenge vorhanden muss Hashfunktion
+            Behandlung der auftretenden Adresskollision ermöglichen
+        - gute Hashfkt:
+          - wenige Synonyme (Adresskollisionen)
+          - effiziente Kollisionsbehandlung
+        - ganz gut:
+          h(k) = k mod m
+            - m ist Primzahl, nicht in nähe von Potenz von Basis des Zahlensys.
+          --> wenige kollisionen
+      - Synonymbehandlung:
+        - seperate chaining (Seperate verkettung)
+          - Datensätze als liste/baum bei jeweiligem key gespeichert.
+          - 1. element ist root der anfang der liste
+        - direct chaining (direkte Verkettung)
+          - Datensätze als liste/baum bei jeweiligem key gespeichert.
+          -  1. element leer --> zeigt auf die liste. --> in jedem fall gleiches
+          Einfügen
+        - Offene Hashverfahren
+          - Nutzung der freien Plätze der Hashtabelle f. Speicherung d. Synonyme
+            - Erfordert feste Regel für Speichern und Wiederauffinden der
+            Synonyme --> Sondierungsfolge s(j,k)
+            h_o(j,k) = (h(k)-s(j,k)) mod m, für j=0,1,...,m-1
+              (solange bis freier Platz oder das Element gefunden, oder j = m)
+            - lineares sondieren: s(j,k) = j
+            - quadratisches Sondieren: s(j,k) = (-1)^j * j^2
+            - double Hashing:
+              s(j,k) = j * h'(k), mit h'(k) = 1 + k mod m'
+                (D-Hash m' wird bel. aber fest gewählt mit m' < m, z.b. m=3)
+              --> h_o(j,k) = (h(k) - j * h'(k)) mod m = (h(k) - j*(1+k mod m')
+
+
+
+
+
+Algorithmen:
+- Euklidischer Algorithmus (berechunng ggT(a,b))
+  1. Bestimme Rest bei Division
+    r = m%n
+  2. Test des Restes
+    if(r == 0) => ggT = n
+  3. Austausch
+    m = n
+    n = r
+    continue with 1.
+
+- Suchverfahren
+  - Sequentielle Suche (Lineare Suche)
+  - binäre Suchverfahren
+    - setzt sortierte Datensätze vorraus
+    - rekursiv,
+    jew. vgl ob gesucht = mitte --> fertig; gesucht > mitte -->
+    return binSuche_rek(arr, gesucht, mitte+1, ende); gesucht < mitte
+    --> return binSuche_rek(arr, gesucht, start, mitte-1), wenn start > end-->
+    nicht gefunden
+  - fibonacci-suche: wie binäre Suche, nur anstatt mit mitte im i-ten Durchlauf
+  mit Fib(i) teilen
+  - exponentielle Suche: für großes/unbekanntes n
+  r=1
+  while A[r] < key:
+    r *= 2
+  binsearch(A, key, r/2, r)
+
+modulo:  wir müssen sein modulo verwenden. begründung: damit Hasufunktion
+intuitiver, da wert nur positiv sein darf.
+  --> in java: floormod
+
+- Sortierverfahren (evt. fertigen java code aufschreiben)
+  - Sortieproblem: 2 Teilprobleme:
+    - Informationsbeschaffungsproblem (Erg. des Vergleichs zweier Schlüssel)
+    - Datentransportproblem (Vertauschenm Verschieben, platzieren... von DS)
+  - interne vs externe Sortierverfahren:
+    - intern: Alle Datensätze vollständig in Arbeitsspeicher gespeichert
+    - extern: Hauptteil der Daten auf externen Datenträgern
+
+  - Vergleichend mit innerer und äußerer Schleife
+    - InsertionSort (Sortieren durch Einfügen)
+      - In-place, stabil
+      - best Case: O(n), average Case: O(n^2), worst case: O(n^2)
+      - Funktionsweise:
+        äußere Schleife (ä.S.) {
+          nimm aktuelles Element a[i], beginnend mit 0
+          i.S. {
+            verschiebe alle Elemente des Sortierten Teils (a[0] bis a[i-1])
+            mit a[j] > key(a[i]) um 1 nach rechts;
+            Speichere a[i] in Lücke (zuvor in variable gesichert)
+          }
+        }
+    - Selectionsort (Sortieren durch Auswahl)
+      - in-place, nicht stabil
+      - best -, average- und worst case: O(n^2)
+      - Funktionsweise:
+        ä.S. {Nimm aktuelles Element a[i] (mit i=0 beginnend)
+            i.S. {finde min in A[i,...,n-1]}
+            swap (A[i], A[min])
+        }
+    - Bubblesort
+      - in-place, stabil
+      - best Case: O(n) (falls optimiert), av. Case: O(n^2), worst case: O(n^2)
+      - Funktionsweise:
+      ä.S. { int i = n-1; i > 0; i--
+        bestimmt letztes Element des unsortierten bereichs i (läuft runter, da
+        am Ende Sortiert)
+        i.S.{ int j=1; j < i; j++
+          vgl. jew. 2 und vertausche ggf. (if(a[j-1] > a[j]), swap(a[j-1, a[j])
+          ("Max steigt auf")
+        }
+        verbesserung: wenn ein Durchlauf ohne Swap--> abbruch (fertig)
+      }
+  - Vergleichend Rekursiv
+    - Quick-Sort
+      - Auf Listen in-place, auf Array extra Speicher benötigt. Nicht stabil
+      - best Case & av. case: O(nlogn), worst case: O(n^2)(pivot >/< Rest)
+      - Funktionsweise:
+      Rekursiv auteilen in Pivot p, T1, T2 mit T1[...] <= p, T2[...] > p
+      T1,T2 zusammenfügen mit p dazwischen
+  - Nicht vergleichend
+    - Heapsort
+      - in-place, nicht stabil
+      - best-, av.- und worst case = O(nlogn)
+      - Funktionsweise:
+      Heapify(A)
+      Schleife(i=len(A), downto 2):{
+        swap(1. El (^= max), letztes El.);
+        heapSize--;
+        Heapify(A)
+      }
+        - in klausur bei Handsimulation
+        jew. head aus Buam entfernen und in
+        neuer liste, sammeln, head mit letztem Element ersetzen, und
+
+    (
+    - Count-Sort
+      - W = Wertebereich
+      - O(W) extra speicher, stabil
+      - O(n+W) --> Für kleine W mit häufig mehrfachen Knoten
+      - Funktionsweise:
+      Array H[W], mit Index = Wert, H[...] = 0
+      S1{durchlaufe A, H[A[i]++]}
+      S2{durchlaufe H, i.S.{füge aktuellen Index i H[i] mal in A ein}}
+    )
+    - Radix-Sort
+      - zusätzlicher Speicher benötigt, stabil
+      - best-, av.-, worst case: O(maxStellen*d)
+      (
+      - Funktionsweise:
+      Count-Sort für n-te (--> zahl % basis), (n-1)-te, (n-2)-te.. Ziffer
+      )
+      - Funktionsweise laut Sieck: (Handsimulation auf Block S. 57)
+        - b = Anz. Zeichen des Alpphabets (Dezimalzahlen: 10)
+        - Max Anz der Stellen maxStellen herausfinden (für Handsimulation
+        kürzere am Anfang mit Nullen füllen)
+        - Hilfsarray H[b+2], indizes stehen für {-,+,0,1,2,...,b-1}
+        Verteilungsphase 0
+          DS mit FIFO (Queue)Anhand letzter Stelle (maxStellen-0) Fächern in H
+          zuorndnen.
+        Sammelphase 0
+          DS nacheinander mit gemäß FIFO Prinzip aus Fächern einsammeln
+        Verteilungsphase i
+          DS mit FIFO (Queue)Anhand (maxStellen-i)ter Stelle Fächern in H
+          zuorndnen.
+        Sammelphase i
+          DS nacheinander mit gemäß FIFO Prinzip aus Fächern einsammeln
+        Verteilungsphase m (Vorzeichen)
+          DS mit FIFO (Queue)Anhand des Vorzeichens Fächern in H zuorndnen.
+          (also zu H[0], wenn negativ, H[1], wenn positiv)
+        Sammelphase m (Vorzeichen)
+          DS aus H[0] (negativ) gemäß LIFO-Prinzip einsammeln, dann DS von H[1]
+          (positiv) gemäß FIFO-Prinzip einsammeln
+
+
+- Wege in Graphen
+  - Breitensuche (FIFO)
+    - Verwendung: Traversierung, Shortest Path
+    - Funktionsweise:
+      Analaog zu Tiefensuche aber mit Queue
+    - Findet kürzesten Pfad
+    - O(|V|+|E|) (jeder Knoten und jede Kante 1 mal)
+  - Tiefensuche (LIFO)
+    - Verwendung: Traversierung, Short Path
+    - Funktionsweise:
+      Startknoten (bzw. currNode) auf Stack (besucht markieren), dann alle
+      benachtbarten von betrachteten auf Stack packen (zusammen mit Vorgänger ==
+      currNode fürs backtracking)(dafür jew. als besucht markieren).
+      Dann currNode als bearbeitet markieren. Für Shortest-Path: wenn gesuchter
+      Knoten bearbeitet Abbruch und durch Backtracking Weg ermitteln
+    - Findet Pfad aber nicht unbedingt den kürzesten
+    - O(|V|+|E|) (jeder Knoten und jede Kante 1 mal)
+
+  - Dijkstra:
+    - Verwendung: Bei gewichteten Graphen:  Entfernung von einem Knotenzu allen
+    anderen, ShortestPath (bei erreichen von Zielknoten kann aufgehört werden;
+    dann Backtracking bis Startknoten erreicht)
+    - Funktionsweise:
+      1. Wähle Startknoten
+      2. Ergänze Menge der erreichbaren Knoten um die von currNode erreichbaren,
+         und aktualisiere die Entfernungen
+      3. Markiere Knoten als abgearbeitet und wähle aus Menge der erreichbaren
+        Knoten den mit minimaler Entfernung.
+         (Wenn Zielknoten, dann kürzester Weg gefunden, -> Backtracking, ende)
+         (Wenn Menge der erreichbaren Knoten leer, ex. kein Weg)
+         (Sonst: Gehe zu 2.)
+    - Terminiert (je nach Verwendungszweck), wenn Zielknoten erreicht oder alle
+      Knoten abgearbeitet sind
+
+
+
+- Kompressionsverfahren
+  - Gründe: wenig Speicherkapazität, Zeitersparnis, Beseitigung v. Fehlerquellen
+  - Lauflängenkodierung: mehrfache gleiche Zeichen kodiert: Anzahl und Zeichen,
+    Original: AAAAAAAABCCCCCCDDAAAAAACCC
+    L-Code: 8A1B6C2D6A3C
+    besser: Wenn nur 1 oder 2 mal ohne Anzahl --> 8AB6CDD6A3C
+    - wenn zahlennicht verfügbar simuliert mit Escape-Symbol und Zeichen,
+    welches entsprechend der Stellung im Alphabet als Anzahl interpretiert wird
+    --> Escape: Q  --> QHABQFCDDQFAQCC
+    - Bei Bitmuster, z.b. S/W-Scanner 0 Spalte am Anfang hinzufügen, dann
+    immer abwechseln Anz. von 0, anz v. 1
+      000001110000 --> 0000001110000 --> 5,3,4
+  - Kodierung mit variabler Bitlänge: häufige Buchstaben mit wenig Bits,
+    seltene Buchstaben dafür mit vielen Bits kodieren; Kodierung angeben/
+    berechnen mittels Binärbaum: Zeichen in Blättern, Weg gibt die Bitfolge an
+    (lc = 0, rc = 1).  (beispiele Folien 11,12 von 13_Kompression)
+    - Huffman-Kodierung (Verwendung von optimalen Baum)
+      1. Zeichenhäufigkeit im zu kodierenden Text bestimmen
+      2. Für jedes Zeichen mit Häufigkeit >0 Knoten/Baum erzeugen
+      3. Solange bis nur noch ein Baum vorhanden ist: Verschmelze Bäume mit
+         geringster Häufigkeit zu neuem Binärbaum (Häufigkeit der Zeichen des
+         neuen Binärbaums = Summer der Häufigkeiten der beiden Teilbäume)
+      (Beispiel Folie 20 von 13_Kompression)
+
+
+
+
+
+Komplexitätsanalyse
+  - Operationsanzahl/Laufzeit; Speicherbedarf
+  - best case, worst case, average case
+  - Laufzeit T(n) <= c1 * n + c2 € O(n)
+  - O-Notation gibt Komplexitätsklasse Größenordnung/Wachstumsverhalten an
+  - lineares Wachstum O(n); logarithmisches Wachstum O(log n); quatratisches
+  Wachstum O(n^2); exponentielles Wachstum O(2^n)
+
+
+Verschlüsselung (Kryptologie)
+  - Originalinformationen so verändern, dass sie erst nach Rücktransformation
+  zu erfassen sind. Rücktransformation soll nicht für jeden möglich sein.
+  - Einfache Verfahren (Symmetrische Verschlüsselungsverfahren):
+    - Cäsar-Chiffre: Ersetze im Text den n-ten Buchstaben durch den (n+k)-ten
+      - Bsp (mit k=3, wie von Cäsar verwendet)
+        ABRA_CADABRA --> DEUDCFDGBEUD
+    - Nutzung von Ersetzungstabelle: Jeder Zeichen durch in Ersetzungstabelle
+    bestimmtes Zeichen ersetzt.
+      - bsp: Ersetzungstabelle:
+          _ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          TM_BGFIOHJUWNEDCKZPRXSVQYLA
+          ABRA_CADABRA --> M_PMTBMGM_PM
+    - Vigenere-Chiffre: mehere Ersetzungstabellen, die in bestimmter Reihenfolge
+    verwendet werden.
+  - Verschlüsseln mit pub. key (Asymmetrische Verschlüsselungsverfahren)
+    - zwei Schlüssel, ein öffentlicher P und ein geheimer S
+      - für Ver- und Entschlüsselung sind beide Schlüssel notwendig
+        S(P(text)) = text, P(S(text)) = text
+        (verschlüsseln mit P, entsschlüsseln mit S; authentifizieren mit S,
+        überprüfen mit P)
+      - S != P; S aus P oder Text ableiten sehr schwierig;
+      Ver-/Entschlüsselung einfach zu berechnen
+    - geheime Nachricht n versenden/empfangen: P_Empfänger(n) --> S_Empfänger(n)
+    - authentifizierte Nachricht n versenden:
+      P_Empfänger(S_Absender(n)) --> S_Empfänger(P_Absender(n))
+    - RSA-Kryptosystem
+      - Schlüssel aus sehr großen Primzahlen (min 100 Stellen)
+        - public key P = (N,p)
+        - private Key S = (N,s)
+      - Chiffreberechnung:
+        - Text in Zahlen (Teilzeichenketten T_i) kleiner N zerlegen
+        - Chiffrierung: C_i = (T_i)^p mod N (bzw. C_i = (T_i)^s mod N)
+        - Dechiffrierung: T_i = (C_i)^s mod N (bzw. T_i = (C_i)^p mod N)
+      - Algorithmus zur Berechnung von N, p und s
+        - Bestimme zufällig!!! 3 große Primzahlen x,y,z (> 100 Stellen)
+        - s = max(x,y,z) ) = z
+        - N = x * y
+        - Wähle p so, dass (p*s) mod (x-1)*(y-1)=1
+          --> Text^(p*s) mod N = Text
+        - Bsp:
+          x= 46, y=79, z=97
+          s = max(x,y,z) = 97
+          N = x*y = 47*79 = 3713
+          wäle p = 37, da (37*97) mod((47-1)*(79-1)) = (3589) mod (3588) = 1

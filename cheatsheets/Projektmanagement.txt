@@ -1,0 +1,1657 @@
+
+🔎: Gibt es, müssen wir aber nicht können
+
+VL 1:
+
+- Projekt: 
+	- Def: .. eine für einenn befristeten Zeitraum geschaffene ORganisation, die mit dem Zweck eingerichetet wurde, ein oder mehrere Produkte in Übereinstimmung mit einem vereinbartem Buisness Case zu liefern.
+	- Def: Vorhaben, das im Wesentlichen durch Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist, wie z.B...(siehe Bedingungen)
+		- Einmaligkeit --> Abgrenzung zu anderen Vorhaben: Gegenteil unternehmerischer Routine (Muss also zumindest für einen selber neu sein) 
+	- Bedingungen/Projektmerkmale:	
+		- Ziel/Inhalt (z.b. Bau-, IT-, Filmprojekte)
+			- Ziele Beschreiben erwünschte zukünftige Zustände nach
+				- Inhalt/Gegenstand (z.b. Rentabilität)
+				- Ausmaß (z.b. 8%)
+				- Zeitbezug (Jahr 2015)... (wann soll das ~iel erreicht sein)
+			- SMART-Regel als empfohlene Orientierung
+				- Spezifisch: Eindeutig definiert (möglichst konkrete Formulierung des angestrebten enzustands)
+				- Messbar: Überprüfbarkeit ob oder wie weit Ziel erreicht wurde)
+				- Akzeptiert: von allen Empfängern akyeptiert werden/sein (auch: angemessen, attraktiv, abgetimmt, ausführbar/aktionsorientiert oder anspruchsvoll)
+				- Realistisch: erreichbar sein
+				- Terminiert: Zu jedem iel klare Terminvorgabe, bis wann erreicht sein muss
+			- Zielausrichtung:
+				- Ergebnisziele: Bezug auf das Projektergebnis
+				- Arbeitsziele: Beyug auf die Projektdurchführung
+			- Zielinhalt: 
+				- Quantitativ: Anhand von empirischen Beobachten einzelner Merkmale systematisch mit zahlenwerten erfassen
+					- z.b. Umsatz, Ertrag, Stuuckzahlen, Kostenminderung, Durchlaufbeschleunigung des Entwicklungszyklus einer Software
+				- Qualitativ: ...; Untersuchungsgegenstand möglichst detailliert, ganyheitlich und umfassend beschreiben
+					- z.b. Verbesserung des Betriebsklimas, der Produktwahrnehmlung, des Unternehmensimages
+			- Kategorien
+				- Strategisch: x > 5 Jahre (z.b. in den nächsten 5 Jahren Marktführer sein)
+				- Taktisch: 1 < x < 5 Jahre (y.b. Produktion in nächsten 2 Jahren verdoppeln)
+				- Operativ: x < 1 Jahr (Umstieg von Windows XP auf MacOs bis Ende des Jahres)
+			- Zielkonflikte/Konkurenz
+				- Bsp.:  unterschiedliche Vorstellungen der Projektbeteiligten
+				- Bsp.: Kosten vs. Zeit vs. Qualität (Magisches Dreieck, stehen sich gegenüber, man kann nicht gleicheitig alle 3 optimieren)	
+					- y.b. kann man Qualit't durch mehr Zeitinvestition steigern. Folge sind auch anstieg der Entwicklungskosten
+			- Kausale Abhängigkeiten: Ziele können aufeinander aufbauen
+
+		- Zeitliche Begrenzung (befristet): defninierter Anfang, geplantes Ende
+		- Finanzielle Begrenzung
+		- Abrechnung (Fix-, Flexpreis) 
+		- Personelle Begrenzung
+		- Projektspezifische Organisation
+		- Risiko (bzgl. Kosten, Termin, Qualität)
+		- Projektart 
+	- Unterschied zu Buisiness-As-Usual bygl folgender Merkmale:
+		- Veränderug:
+			- Schafft Veränderung
+			- Ist Reaktion auf Veränderungen am Markt, technischen fortschritt,..
+		- Befristet
+		- Bereichsübergrefend (mehrere Abteilungnen oder sogar Unternehmen arbeiten zsm)
+		- Einzigartig
+		- Unsicherheit
+			- wegen Veränderungs-Aspekt
+			- Oft noch keine Erfahrungswerte
+
+		
+	- Kategorisierung
+		- Persönliche Projekte (z.B. Studium, Hausubau,...)
+		- Staatliche Projekte	
+			- Oft unter Einbezug von Unternehmen (-> UnternehmensProjekte)
+		- Unternehmensprojekte
+			- Ausrichtungsbezogen. Orientiert an Typen von Aufgabenstellungen:
+				- Revolutionsprojekte: Völlig  neue Problemlösungen
+				- Evolutionsprojekte: Auf gegebenen Problemlösungen aufbauen
+				- Expansionsprojekte: Neue UNternehmensbereiche erschließen
+			- Ausstattungsbezoge
+				- Ein-Personen-Projekte: Überschaubare Kleinprojekte. Gefahr wenn die Person ausfällt
+				- Mehr-Personen-Projekte: Evtl. in mehreren Teams
+				- Vollyeitprojekte Projektmitarbeiter arbeiten ausschlie-lich din diesem Projekt
+				- Teilzeitprojekte: Projekte verwenden nur einen Teil ihrer Arbeitszeit auf das Projekt
+			- Trägerbezogen. Kategorisiert nach Aufgabenträgern:
+				- Eigenprojekte: Internes Personal (Projektleiter und sonstiges Personal(
+				- Fremdprojekte: Externer Auftragnehmer fürt Projekt durch
+				- Mischprojkete: y.b. unter Beteiligung von externen Experten
+			- Funktionsbezogen. Kategorisert nach Funktionsbereich
+				- Marketingprojekte, z.b. Werbeprojekte
+				- IT-Projekte
+
+- Projektmanagement
+- Management: (aus eng. manage=handhaben, [mit etw.] zurechtkommen, etw. bewältigen, fertigbringen; und it. maneggiare/lat. manus agere: an der Hand führen)
+	- Management ist die zielorientierte Gestaltung, Steuerung und Entwicklung des Unternehmens. Ees kann umwassen
+		- im engeren Sinne sämtliche sachbezogene Maßnahmen
+		- im weiteren Sinne alle sachbezogenen und personalbezogenen Maßnahmen
+- Def. Projektmanagement (PMt): .. ist die Gesamtheit von Führungs!!!aufgaben, -organisationen, -techniken und -mitteln für die Abwicklung von Projekten.
+	- Teilbereiche:
+		- M. von Projektinhalten und -zielen (Sachebene)
+		- M. der Art und Weise des Vorgehens und des Prozesses (Bestimmung eines Vorgehensmodells miot Methoden und Prozessen)
+		- M. der Steuerung von Interaktionen und Beziehungen
+		- Schaffung eines gemeinsamen Verständnisses von allen Projektbereichen
+		- Problemlösung, Organisation und Steuerunge von Arbeitspaketen
+- IT-Projektmanagement: Management von Projekten mit informatischen Objeten des Interesse=s
+- Rollen im IT-Projekt: die einer Person zugeordnete oder von ihr angenommene Funktionen im Projekt. Rollenklarheit bezüglich Authorität, Verantwirlichkeiten und begrenzungen sollten ebenfalls dokumentiert werden
+	- Projektmanager (PM): Die von der durchführenden Organisation eingesetzte Person das Team zu leiten und für die Erreichung der Projektziele verantwortlich zu sein. 
+		- Es Ex. orgehensmodelle (z.b. Scrum), wo das nicht vorgesehen ist.
+	- Technischer PRojektmanager
+	- Usability Engineer
+	- Softwarearchitekt
+	- Entwickluer
+	- QA ENgineer
+	- ScrumMaster
+	- ... (nicht alle erforderlich)
+
+-------------
+VL2
+
+- Einteilung von Projektmanagement in Bereiche
+	- (Internationale) Projektmanagementstandards
+		- Normungsorganisationen
+			- Deutsches Institut für Normung (DIN): DIN 69901
+			- International Organization for Standardization (ISO): ISO 21500
+		- Projektmanagementorganisationen
+			- Project Management Institue (PMI): A guide to theproject management body of knowledge (PMBOK) (mit 3Mio das meist verkaufte PMtBuch, nicht auf IT beschränkt)
+				- Prozessorientiert. Für jeden Prozess werden Input, Output, Werkzeuge und Verfahren (allgemein) beschrieben.
+				- 47 Prozesse verteilt auf 5 Prozessgruppen und 10 Wissensgebiete. (z.b. Control Quality)
+				- Enth'llt ein Diagramm, wann welche Phase des Prozesses wie stark präsent ist. --> fast alle Phasen jederzeit zumindest etwas präsent
+		- Behörden
+			- Cabinet Office (Egnlische Regierung: Projects in Controlled Environments (PRINCE2)
+			- legen z.b. fest wie Projekte, die im zsmhang mit der Regierung stehen angegangen werden sollen
+
+	- Klassische Vorgehensmodelle (häufig auch> Allgemeine Vorgehensmodelle)
+		- Organisiert einen Prozess in verschiedene, strukturierte Abschnitte
+		- sollte festlegen:
+			- Reihenfolge des Arbeitsablaufes
+			- jew. durchyuführendeAktivitäten 
+			- Definition der Teilprodukte
+			- Fertigstellungskriterien
+			- Notwendige Mitarbeiterqualifikationen
+			- Verantwortlichkeiten und Kompetenzen
+			- Anzuwendende Standards, Richtlinien, Methoden und Werkzeuge	
+		- Wasserfallmodell
+			- Jede Aktivität in richtier Reihenolge und vollständig durchyuführen
+			- Aus Aktivität resultiert ein Dokument
+			- Übergang zu nächsten Schritt, wenn voheriger fertig
+			- Rückkopplungen (Rücksprünge) auf angrenzende Stufen beschränkt
+			- Benutzerbeteiligung nur in Definitionsphase (Anforderungserhebung)
+			- Systemanforterung --> SoftwareAnforderung-->Analyse00>Entwurf-->Kodierung00>Testen00>Betrieb
+		- V-Modell
+			- Integriert Qualit'tssicherung in Wasserfall: während jeder Phase Testen
+			- ANforderungsdefinition -(Anwendungsszenarien)-> Abnahmetest;(Bis hier Validierung, ab hier Verifikation) Grobentwurf -(Testfälle)-> Systemtest; Feinentwurf -(Testfälle)-> Integrationstest; Modulimplementation -(Testfälle)->Modultest
+			- 🔎 Unterschiedliche Versionen: V-Model XT (XT = Extreme Tailoring, engl. "to tailor"=schneidern): ist an die jew. Bedrürfnisse anpassbar
+	- Agile Methoden
+		- Entsprechen (mehr oder weniger) dem Agile Manifesto (2001):  Wir erschließen bessere Wege, Software zu entwickeln, indem wir es selbst tun und anderen dabei helfen. Durch diese Tätigkeit haben wir diese Werte zy schätzen gelernt (Werte af der rechten seite zwar wichtig, aber die auf der linken Seiter werden höher eingeschätzt):
+			- Individuen und Interaktionen mehr als Prozesse und Werkzeuge
+			- Funktionierende Software mehr als umfassende Dokumentation
+			- Zusammenarbeit mit dem Kunden mehr als Vertragsverhandlung
+			- Reagieren auf Veränderung mehr als das Befolgen eines Plans
+		- Reagieren auf Veränderungen
+			- Fachliche und technische Durchtringung ist oft/eigentlich nicht mit Projektstart beendet
+			- Viele agile Methoden sind daher iterativ aufgebaut.
+		- Iterativ
+			- Scrum
+			- Extreme Programming (XP) - sher programmiernah
+		- Nicht iterativ
+			- Kanba
+		- Manche der Methoden ergänzen sich im praktischen Einsatz (z.b. Scrum und XP)
+		- Grundprinzipien 
+			- Kaizen (Kai=Veränderung, Wandel; Zen - zum Besseren)
+				- nicht sprunghafte Verbesserung durch Innovation, sondern schrittweise erfolgede Perfektionierung des bewährtenProdukts
+				- wirtschaftlicher Erfolg durch mit ausgezeichneter Qualität erreichte Kundenzufriedenheit
+			- Flow
+				- Schaffens- bzw Tätigkeitsrausch oder auch funktionslust
+				- Tätigkeit muss gefallen und die Anforderung so hoch, dass volle Konrentration erfordert, aber nicht überfordert
+			- Natural Velocity
+				- es hilft idr kaum den sselben Prozess schneller/härter durchzuführen, sondern nur ändern des Prozesses hilft
+			- Face-to-Face-Communicaiton
+				- direkte Kommunikation der über Dokumente vorziehen
+			- Inspect and Adapt
+				- Retrospektive
+					- in regelmäßigen Abständen überprüft das Team wie es effektiver werden kann und passt sein Vorgehen entsprechend an (ziel: Kontinuierliche Verbesserung: Kaizen)
+		- Agile Prinzipien
+			- Zufriedenstellung des kunden durch frühe und kontinuierliche AUslieferung
+			- Nutzen von Veränderungen zum Wettbwerbsvorteil
+			- Regelmäßige Lieferung von funktionierender Software
+			- Nahezu tägliche Zusammenarbeit von Fachexperten und Entwicklern 
+			- Bereitstellung des Umfelds und der Unterstützung
+			- Face-To-Face-Communication
+			- Wichtigstes Fortschrittsmaß: Funktionsfähigkeit der Software
+			- Einhalten eies gleichmäßigen Arbeitstempos
+			- Ständiges AUgenmerk auf technische Exzellenz und gutes Design
+			- Einfachheit ist essenziell (KISS-Prinzip)
+				- Keep it simple, stupid (keep it short and simple)
+			- Selbstorganisation der Teams bei PLanung und Umsetzung
+			- Selnbstreflexion der Teams über das eigene Verhalten zur Anpassung im Hinblick auf Effizienzsteigerung
+		- Scrum
+			- 3 Rollen
+				- Product Owner (PO)
+					- Requirements (Ist für die Anforderungen Verantwortlich, sagt also was gemacht werden soll)
+					- Kunde/Vertreter des Kunden,
+					- wert des Produkts und der ARbeit des Entwicklerteams maximieren
+					- Alleinverantwortlich f¨r das Product Backlog
+					- Verantwortlich für Projekterfolg
+					- Hat vision wo das produkt hinführen soll
+					-
+				- Scrum Master (SM)
+					- Prozess (Sorgt dafür, dass Scrumm Prozess durchgeführt wird. Teammitglieder sich alsoo an die Regeln halten und sie verstehen. Kümmert sich um Meetings)
+					- hilft aussenstehenden zu verstehen welche Interaktinoen mit dem Scrum team sinnvoll sind und welche nicht (Agil erklären)
+				- Developers:
+					- Code *Setzen um, Flache Hierarchie, sind nicht PO oder SM untergeordnet
+					- strukturiert und bevollmächtigt durch Organisation ihre eigene Arbeit selbst zu organisieren und managen
+			- Zeremonien
+				- Daily Meeting/3 Fragen
+					- Was habe ich gestern gemacht?
+					- Was werde ich heute machen?
+					- Sehe ich irgendwelche Hindernisse/Probleme?
+					- Vorteuke: 
+						- jeder weiß wo man gerade steht
+						- vorteile werden schnell erkannt
+						- nicht Lösung der Probleme, das passiert ausserhalb der Meetings. Es wird besprochen wer sich Problem annimmt/zur Hilfe gezogen wird
+					- 15 min
+				- Iterationen starten mit einem Sprit Planning (Meeting)
+					- Auswahl der zu implementierenden Anforderungen aus Product Backlog
+					- PO sollte dabei sein um zu sagen was wichtig
+					- Devs um zu sagen was in der zeit möglich
+					- SM für scrum
+					- Wie das Inkrement erreicht wird
+						- Backlock items übersetzt in Aufgaben und abgeschätzt
+				- Iterationen enden mit einem Sprint Review (Meeting)
+					- Präsentation des auslieferbaren Inkrements
+						- Devs präsentieren Stakeholdern, insb PO die umgesetzten Features.
+						- Dabei lernen sie neues über das zu bauende sustem (so viel kritik wie möglich bekommen)
+						- setzten sich mit Produkt ausseinander
+					- PO identifiziert was getan wurde
+					- PO diskutiert Backlocg wie es nun ist
+					- Ganze gruppe, aber priorisiert der PO besprechen was als nächstes zu tun ist
+				- Nach dem Sprint Review: Sprint Retrospective (Meeting)
+					- Reflexion über die letzte Iteration
+						- Setzt sich mit Prozess auseinander
+					- Suche nach PRozessverbesserungen	
+			- Arbeiten in kurzen Iterationen (Sprints):
+				- 1-4 Wochen
+				- Auslieferbares Inkrement am Ende 
+			- Team organisiert sich selbst (self-organized(
+			- Während eines Sprints ändern sich die Requirements nicht
+			- Artefakte:
+				- Product Backlog
+					- geordnete Liste (Prioritäten, Wert, Risiko) von allem was im Produkt gebraucht wird 
+					- die einzige Quelle von Anforderungen über Änderungen am Produkt
+					- Product Owner verantwordlich, inkl. Inhalt, Zugänglichkeit und Sortierung
+					- Lebende Liste
+				- Sprint Backlog
+					- Menge von Product Backlog Einträgen für den SPrint
+					- Zusätzlich Plan zur Auslieferung des Produkt Inkrements und zur realisierung dies Sprint Goals
+					- Eine Forhersage durch das Entwicklerteam darüber welche Funktionalität im nächsten Inkrement vorhanden sein wird ( und welche Arbeit benötigt wird zum um diese FUnktionalität als Done zu bezeichnen)
+					- Aufwand einer Aufgabe in Story Points abgeschätzt und später in Stunden umgerchnet (weil vesch. Personen an versch. Tagen versch. schnell sind)
+						- Story Points: Abstraktes SChätzmaß. Nicht Aufwand sondern Komplexität des umzusetzenden Features
+							- Komplexität der Story
+								- davon abh wie oft welche SChichten des Architekturmodells durchstoßen werden...
+							- Komplexität der Interaktionenen die zur Umsetzung nötig sind	
+							- jedes team für sich, innerhab aber gleiches vVerständnis des Maßes
+							- Analogieverfahren :Storypoints werden durch das vergleichen verschiedener Storys vergeben
+							- In der Praxis:
+								- Ausgangspunkt ist eine Referezstory mit mittlererer Größe
+								- Andere Stories damit vergliechen 
+									- dazu verwendeung der Fibonacci reihe (F(i)=F(i-1)+F(i-2))
+										- da wenn komplexr die Genauigkeit der Schätzung abnimmt
+							- Velocity-Faktor
+								- gibt an wieviele Story-Points in einem definierten Zeitbereich umgesetzt werden können
+								- Teamabhängig, Zeitpunktabhänig
+								- Möglichkeiten zur bestimmung:
+									- Verwendung historischer daten wie viele Storypoints das Team pro zeiteinheit schafft
+									- Vorprojekt: kleiner Ausschnitt des Gesamtprojektes in kleinem Vorprojekt umsetzten und damraus Velocity-Kennziffer ermitteln
+									- Schätzen: sonst
+					- Idr in Scrumboard visualisiert und täglich aktualisiert
+						- Spalten: Story; ToDol In Process; To Verify; Done
+						- darin Karten, die jew user story enthalten und verschoben werden
+				- Impediment Backlog
+					- Liste von Dingen, die Team hindern Aufgaben zu erledigen oder das Sprint ziel zu erreichen
+					- Team muss in täglichen Scrum meetings über solche Hindernisse berichten
+					- werden evt, in Retrospektive aufgeddeckt
+					- Scrum Master ist zuständig für zügige Aufhebung der Hindernisse zu sorgen
+	
+			- Essenz von Scrum
+				- Klare Ziele
+				- Selbstorganisation
+				- Regelmässige auslieferung der wertvollsetn Features
+				- Team erhält Feadback von Außenstehenden
+				- Team reflektiert die arbeitsweise um sie zu verbessern
+				- Ganze ORganiation hat Einblick in Fortschritt des Teams
+				- Team und Management kommunizieren ehrlich über FOrtschritt und risiken
+			- wo hilfreich
+			- was storz Points sind, wozu, wie ermitteln
+			- wie Risikomanagement urch crum unterstützt wird
+		- XP
+			- Selten erwähnt, da mittlerweile selbstverständlich
+			- 5 Werte
+				- Kummunikation
+					- Viele Probleme hängen mit fehlgeschlagener oder nicht stattfindender Kommunikation statt
+					- z.b.
+						- stille Annahmen über ANforderungen
+						- NIcht kooridinierte technische Entscheidungen
+						- Fehlende Informationen zu Designideen
+						- Fehlende Hinweise auf technischen Änderungen
+				- Einfachheit
+					- Einfachstste Lösung wählen, die Anfoderungen erfüllt (bzgl. Prozess und Produkt)
+				- Feedback
+					- hilfreich schnell Rückmeldungen hinsichtlich Konsequenzen von Aktivitäten un dPlänen zu bekommen
+					- neuer code korrekt? Passt er zum Rest des Szstems? Wie zweckdienlich
+				- Mut
+					- für die ersten 3 Werde ist Mut erforderlich
+					- z.b. kommunizieren, dass ein vielgenutztes Interface geändert werden sollte
+					- sich negativem Feedback stellen
+				- Respekt
+					- Basis, damit Team den Werten Kommunikation, Feedback und Mut folgen kann
+					- Jeder gegenüber jedem
+			- XP Praktiken: 
+				- Prozesse
+					- Pai Programming
+					- 40 Woche
+					- Sit Together
+					- Whole Team
+					- Informative Workspace
+				- Architektur
+					- Refactoring
+					- ...
+				- Testing
+					- Coding standards
+					- Continuous Integration
+					- ...
+				- #TODO: stark überflogen, aber sehr sinnvoll mir nochmal anzugucken
+	- Ansätze dieser 3 Bereiche überschneiden sich zum Teil (z.b. V-Model XT mit agilen Methoden verknüpfbar)22
+- PITPM (Pragmatisches IT-Projektmanagement) ist eine anpassung und konkretisierungung des PMBOK Guide für Softwareentwicklungsprojekte
+- Einteilung von Projekten (Nach PITPM, ähnlich PMBOK Guide. Andere Modelle definieren andere aber ähnliche Phasen)
+	- 5 Phasen (zeitliche Einteilung)
+		- Vorbereitung
+			- Initialisiert durch:
+				- Pre-Sales / Ausschreibung
+				- Projektauftrag
+			- Vorläufige Beschreibung des Projektumfangs
+			- Potenzielle Vorarbeiten, die nicht zum eigenlichen Projekt gehören (Vorprojekte)
+				- Machbarkeitsstudie
+				- Angebot
+				- Grobe Aufwandsschätzung
+			- Kann als eigenes Projekt verstabnden werden (wird es abner häufig nicht)
+			- Ziel: Projektauftrag ist erteilt.
+			- Prozesse (und deren Aktivitäten):
+				- V.1 Projektumfang bestimmen (durch Rolle: Anforderungsmanager)
+					- V.1.1 Leistungsumfang bestimmen
+						- Ziele des Kunden verstehen
+						- Eingangsartefakte:
+							-  Kunden-Dokumentation (soweit vorhanden)
+							- Aufforderung zur Angebotsabgabe
+							- Präsentationen
+							- Spezifikationen
+							- Prozessbeschreibungen
+							- Protokolle
+						- Methodiken, Techniken, Werkzeuge
+							- Oft enge Grenzen bei Erhebung
+							- Rahmenbedingungen meist durch Auftrtaggeber bestimmt
+							- Oft nur schriftliche Fragen erlaubt, auf die nicht immer klare Antwort erfolgt
+	q						- Tipp: M;glichst den Prozess selber gestallten
+								- Im Rahmen der Möglichkeiten: Workjshops, Befragungen,...
+								- Kooperative Techniken einsetzenL Produktkonzept muss von beiden Seiten getrragen werden
+						- Ausgangsartefakte: Projektumfangsbeschreibung (1. Version)
+							- Projekt- und Produktziele
+							- Projektgrenzen, -anforderungen und -liefergegenstände
+								- idr keine umfassende Anforderungsliste sondernein sog. Produktkonzept
+									- Nuzyen und Mehrwert für den KLunden auf höherem Abstraktionsniveau
+							- Produktabnahmekriterien (unter welchen Bed. kann Abnahme erfolgen/verweigert weerden)
+							- idr. gilt: vorläufig (evolutionäre Entwicklung), hohes Abstraktionsniveau
+							- Dokument, das Zielsetzungen, Übersicht der Projektergebnisse und wesentliche Annahmen zum Projekt zsm fasst. Darin beschriebener Projektumfang in offizieller Abnahme festgelegt, womit sie als Referenz für die Beteiligten dient.
+							- Oft auch Lastenheft oder Pflichtenheft genannt, ergänzt uim Glossar. (Balzert)
+								- 1. Zielbestimmung
+								- 2. Produkteinsatz: Anwendungsbereich/Zielgruppen
+								- 3. Produktübersicht: Produktumgebung
+								- 4. Produktfunktionen
+								- 5. Produktdaten: (zu speichernde Hauptdaten)	
+								- 6. Produktleistungen: z./b. bzgl. Genauigkeit von Daten
+								- 7. Qualitätsanforderungen: z.b. Zuverlässigkeit, Benutzbarkeit,...
+								- 8. Ergänzungen
+					- V.1.2 Grobanforderungen identifizieren (durch Rolle: Anforderungsmanager)
+						- Eingangsartefakte: 
+							- Alles was hilft den Leistungsumfang zu bestimmen (Eingansartefakte von V.1.1,..)
+							- Ausschreibungsunterlagen
+							- Workshops mit dem Auftraggeber
+							- ...
+						- Methoden, Techniken, Werkzeuge:
+							- Soweit möglich: Techniken des Requirement Engineerings (Anforderungsanalyse)
+								- Befragungen (mündlich, schriftlich)
+								- Analysen von bestehenden Systemen, Dokumenten, Nutzern bei Umgang mit Systemen,...
+						- Ausgangsartefakte: Anforderungsliste (1. Version)
+							- Messbare Anforderungen
+								- Anforderung:
+									- (1) Bediungung oder Fähigkeit, die von einem Benutzer benötigt wiurd um ein Problem zu lösen oder ein Ziel zu erreichen
+									- (2) Bedingung oder Fähiogkeit, die ein System oder eine Systemkomponente beinhalten muss, um einen Vertrag, Standard, Spezifikation oder andere formell auferlegte Dokumente zu erfüllen	
+									- Funktionale Anforderungen:
+										- Was das Produkt tun soll.
+									- Nichtfunktionale Anforderungen: Welche EIgenschaften das Produkt darüber hinaus haben soll. / Anforderungen an die Qualität in welcher die geforderte FUnktionalität zu erbringen ist. 
+										- z.b. Aussehen und Handhabung; Zuverlässigkeit, Fehlertoleranz; Benutzbarkeit, Verständlichkeit, Bedienbarkeit; Performanz, Durchsatz, Antwortzeiten, Reaktionszeiten; Hardwareanforderungen, Ressourcenbedarf; Betrieb und Umgeb ungsbedingungen; Portierbarkeit, Installierbarkeit; Vertfügbarkeit, Skalierbarkeit, Ertweiterbarkeit; Vertraulichkeit, Datenschutz, Datensicherheit; Korrektheit: fehlerfreie Ergebnisse, Fehglertoleranz; Unterst¨tzung von Standards, Normen und VOrschriften; Einzusetzende Sporachen, Methoden, Techniken und Werkzeuge
+							- Repräsentieren Anforderungen des Kunden(/der späteren Anwender) an das zu entwickelnde Softwareprodukt
+							- Oft in Form von User Stories
+								- In natürlicher Sprache aus Nutzersicht verfasste Software-Anforderung	
+								- kurz gehalten (idr <= 2 Sätze)
+								- Haben idr Name
+								- funktionale Anforderungen oft auf Story Cards (Karteikarten/Post-Its) geschrieben
+									- Vorderseite:
+										- Prioisierung
+										- Name der Story
+										- Story Points
+										- Beschreibung der Story (Wer, was, warum)
+											- Format: "Als <Rolle (wer?)> will ich <Ziel/Wunsch (was?)>, um <Nutzen (warum?)>"
+											- bsp: Als Mitarbeiter möchte ich einen Konferenzraum iim Intranet buchen, um dort eine Besprechung abzuhalten
+										- Risiko
+										- Story Points (Post-Schätzung)
+									- Rückseite (Wie Kann die Story getestet werden)
+										- Ein oder mehrere Akzeptanzkriterien
+											- Angenommen <Vorbedingung>, wenn <Aktion>, dann <Ergebnis>
+											- Mittels Behavior Driven Development automatisiert testbar
+									- themnatische gruppierung, priorisierung und schätzung idr erst in V.1.4
+										
+								- Können unterschiedliche Granularitäten haben
+									- Sehr groß --> Epic
+								- Haben oft Akzeptanzkriterien (Rückseite der Karte)
+								- Zentrales Ergebnis des Fachlichen Gespr¨âchs zw PM und Entwicklungsteam
+								- Muss überprüfbar und testbar sein
+							- idr gilt: vorläufig, wird im weiteren Projektveerlauf (z.b. in Planungsphase) angepasst und verfeinert
+					- V.1.3 Projektorganisation definieren (durch Rolle: Projektmanager)
+						- Eingangsartefalkte: Projektumfangsbeschreibung (1. Version)
+						- Ausgangsartefakte: Projekt-Organisations-ChartFestlegen
+							- Stellt in art Baumdiagramm dar, welche Rollen im Projekt besetzt werden müssen.
+							- z.b. Projektmanager-(Technischer Projektmanager-(Architekt, Entwickler), Testmanager-(Tester), Risikomanager,...)
+					- V.1.4. Aufwand abschätzen (durch Rolle: Softwarearchitekt)
+						- Eingangsartefakte: Risikoregister
+						- Schätztechnik: 
+							- Drei-Punkte-Technik (PERT-Dreipunktschätzung)
+								- Schätzung des Aufwands für jedes Arbeistpaket (in Mann-Tagen MT):
+								- 1. Pessimistische Schätzung
+								- 2. Wahrscheinliche Schätzung
+								- 3. Optimistische Schätzung
+								- (pessimistische Schätzung + 4* wahrscheinliche Schätzung + optimistische Schätzung ) / 6
+							- Schätzklausur
+								- Schätzung des Aufwands für jedes Arbeispaet
+								- 1. Jedes Teammitglied gibt eine verdeckte Schätzung pro Arbeitspaket ab
+								- 2. Grobe Ausreißer werden eliminiert oder diskutiert, falls Bedenkentr¨rager einen Grund hat, den die anderen nicht gesehen haben
+								- 3. Bildung des Durchschnitts
+						- Ausgangsartefakte: Aufwandsabschätzung
+							- Abschätzung von Gesamtaufwand/kosten
+							- Erste Zahl ins Gedächtnis des Auftragsgebers gebrannt, daran gekn¨pfte Bedinungen nicht. Daher:
+								- Rahmenbedingungen detailliert vertraglich in Dokument festhalten
+							- Evtl iterativen./agilen Ansazy wählen/Vorschlagen. Bei interenen Projekten leicher zu erreichen
+						- Probleme:
+							- Vieles häufig noch nicht abschließend geklärt, insb. Anforderungen
+							- Viele Risiken noch nicht vollständig eruiert
+							- Trotydem Festpreisabschätzung erwartet
+								- zu hoch --> man bekommt Auftrag evtl nicht
+								- zu niedrig --> man bleibt evtl. auf Kosten sitzen
+							
+				- V.2 Risiken analysieren (durch Rolle: Risikomanager)
+					- Risiko:
+						-  Qualitativ: 
+							- Beschreibung eines Ereignisses mit Möglichkeit negativer Auswirkungen
+							- Mögliche Bedrohungen für Erfolg des Projektes
+						- Quantitativ: 
+							- Produkt aus Eintrittswahrscheinlichkeit eines unerwünchten Ereignisses und Schadensschwere
+						- Bsp: Schnittstelle zu anzubindenden Szstem edes Auftraggebers ist komplexerr/unzuverlässiger als angenommen
+					- Bereiche der Risikoquellen: technisch, sozial, rechtlich
+					- Risikofaktoren (Gefahren, die ein Projekt bedrohen)
+						- Änderungsw[nsche
+						- Externe Ressourcen
+						- Neue Techniken
+						- Perfektionismus
+						- Personal
+						- Planungsfehler
+						- Projekltdurchführungsfehler
+						- Technische Probleme
+						- Termineinhaltung
+						- ...
+					- V.2.1 RIsiken identifizieren
+						- Trennung der Rollen Projektmanager und Risikomanager vermeidet Zielkonflikte
+						- Eingangsartefakte:
+							- Anforderungsliste
+							- Projektumfangsbeschreibung
+						- Methoden, Techniken, Werkzeuge
+							- Jedes Instrument zur Identifizierung ist angebracht 
+							- komplexere Risiken werden häufig erst duch kollaborative Kreativetechniken ermittelt
+								- Brainstorming
+								- Delphi
+								- Root-Cause-Analysen
+						- Ausgangsartefakt: Risikoregister
+							- Beschreibung der projektbezogenen Risiken
+						
+					- V.2.2 Risiken bewerten und priorisieren
+						- Eingangsartefakt: Risikoregister
+						- Methoden, Technniken, Werkzeuge
+							- Betrachtung der 
+								- Auswirkungen bei Eintreten (Kostenschätzung)
+								- Wahrscheinlichkeit des Eintretens
+								- Wirksamkeit von ergreifbaren Gegenmaßnahmen
+							- Expected Monetary Value Analysis (EMV) zur Einschätzung finanzieller Folgen eines Risikos
+								- welcher der Wege hat geringers Risiko 
+								- Entscheidungsbaum: Rechteck[Entscheidungspunkt: Szenario 1 oder Szenario 2] - {Kreis(Szenario 1)-{20%-500.00, 15%- -35000, 65%-400.000}, Kreis(Szenario 2)-{...}}
+								- Tabelle für jedes szenario
+									- Reihen: Best Case, Worst case, Most likely case
+									- Spalten: Wahrscheinlichkeit, monetärer Wert, Beschreibung, EMV (monetärer Erwartungswert)
+									- z.b. Szenario 1:
+									       Best Case: 20%; 500.000; Gewinn; 100.000
+									       Worst Case: 15%; -35.000; Verlust; -5.250
+									       Most likely case: 65%; 400.000, Gewinn; 260.000
+									  (darunter Summe der EMV:) EMV (total): 354750
+							- Entscheidungsbäume zuir Einschätung von alternativen Gegenmaßnahmen bei Risikoeintritt
+						- Ausgangsartefakt: Risikoregister (Aktualisierung)
+							- priorisiert
+							- Vorgsaben zur Risikobewältigung
+				- V.3 Projekt beauftragen (durch Rolle: Projektmanager)
+					- V.3.1 Projektauftrag entwickeln und bereitstellen
+						- Eingangsartefakte: 
+							- Extern: Vertrag
+							- Projektumfangsbeschreibung
+						- Ausgangsartefakt: Projektauftrag
+							- soll von Spoonsor autoirisiert werden
+								- Sponsoren: idr Herausgeber (verantwortlicher) für Projektauftrag
+							- Vorraussetzung, das PM auf Ressourcen zugreifen kann, und die P{rojektarbeit beginnen kann
+							- idr Verfasst von Projektmanager
+							- Themen des Projektauftrags:
+								- Motivation (wirtschaftrlich, rechtlich,...)
+								- Bestehende Anforderungen, Wünsche und Vorstellungen an Projektverlauf und Produkt
+								- Projektdesign: Benennung des Projektmanagers, sowie der betroffenen Organisationsbereiche
+								- Grobe Meilensteinplanung (Wunschtermine des Kunden)
+								- Benennung und Beschreibung der Stakeholder
+									- die das Projekt beeinflussen k¨ônnen oder derren interessen ber¨ücksichtigt weerden müssen
+								- Rahmenbedingungen (z.b. verplflichtende Benuztung von Systemen des Auftraggebers)
+								- Gesamtbudget
+								- optional:
+									- Refrenz auf Vertrag zw. Auftragnehmer und Auftrtaggeber (Bezug auf Rahmenvertrag)
+									- Referenz auf Artefakte der Vorbereitungsphase		
+								- mehr siehe VL3, s.49 (Inhaltsverzeichnis des Projektauftrags nach PITPM
+			- KontrollPunkt K1 (vor Übergang zu Planung)
+				- Projektinhalte sind geklärt/festgelegt
+				- Projektauftrag wurde erteilt
+					- Niemals in die nächste Phase (Planungsphase) ohne Auftrag starten. (evt. verschwendung von Ressourcen, keine autorisierung)
+		- Planung
+			- Ausgangspunkt im Idealfall: unterschriebener Projektauftrag
+			- PM klärt:
+				- Wie Anforderungen erhoben, bestimmt und analzsiert werden
+				- Wo und wie Dokumente angelegt werden
+				- Wer zum wöchentlichen Jour fixe eingeladen wir
+				- Wie Risiken beobachtet werden, wer dafür verantwortlich ist
+				- Wie Beschaffungsprozesse organisiert und gestallt sein müssen
+			- Konfiguration des Projektes (durch PM)
+				- Managementplan für alle Wissensgebiete (z.b. Qualitätsmanagement) entwickeln
+					- Bindeglied zwischen Wissensgebieten und Phasen
+			- Ergebnisse (zentrales Artefakt):
+				- Projekthandbuch oder Projektmanagementplan (PM-Plan) 
+					- Wie soll Projekt konkret gemanaged werden (Mutter aller Pläne)
+					- Vollständige Definition der ProjektprozesseL Wie das Projekt funktioniert und abläuft
+					- Frühzeitig aufstellen, Lebendes Dokument (wird während Projekt angepasst)
+					- Führt sämtliche Managementpläne der einzelnen Wissensbereiche zusammen und konsolidiert sie
+				- Anforderungsliste
+					- Verfeinerung der ersten Anforderungsliste aus der Vorbereitungsphase
+				- Release- und Iterationsplan
+					- In welchem gtroben Zeitrahmen werden die identifizierten Anforderungenumgesetzt 
+					- Iterationsplanung: Festlegung von weiteren, nötigen Planungsmeilensteinen zur iterativen Erstellung von Ausbaustufen des PM-Plans (eine vs. viele Iterationen)
+			- Ziel: Team und Kunden wissen, wie das Projekt ablaufen wird
+			- Prozesse (und deren Aktivitäten):
+				- P.1 Projekt Konfigurieren
+					- Alle notwendigen Aspekte planen und konfiguriueren. Man erhält also diue Handlungsanweisung für die Führung des Projektes
+					- z.b. Umgang mit Risiken; Anfoirrderungsanalyse
+					- P.1.1 Projektteam aufstellen
+						- Eingangsartefakte: 
+							- Projektauftrag
+							- Projektorganisation
+						- Ausgangsartefakte: 
+							- Liste mit Projektmitarbeitern und Kontaktdaten (Anfang Projektmanagementplan)
+								- Zusammenstellung der notwendigen Mitarbeiter (ggf. aus Fachabteilungen oder von externen Dienstleistern
+								- Kriterien bei der Auswahl der Mitarbeiter
+									- Verfügbarkeit in der Projektlaufzeit
+									- Kosten mit Blick auf das Projektbudget
+									- Erfahrung in Hinblick auf den Projektauftrag
+									- Eignung mit Blick auf die benötigten Kompetenzen
+									- Kenntnisse von ähnlichen Projekten (Branche, Befindlicjhkeiten,...)
+									- Fertigkeiten in Hinsicht auf Tools für PM oder SW-Entwicklung
+									- Einstellung und Verhalten (Blick auf die Zusammenarbeit im Team)
+									- Standort (Zeitzonen/Kommunikationsmöglichkeiten)
+					- P.1.2 Kick-Off-Workshop durchführen
+						- Ziel: Kenenlernen der Beteiligten; Teambildung
+							- Botschaft: Alle Aufgaben sind nur gemeinsam zu bewälitigen. Daher nicht reine Frontalpräsentation
+						- Eingangsartefakte: 
+							- Projektauftrag
+							- Projektorganisation
+						- Beteiligte (sofern schon bekannt/gesetzt):
+							- Sponsoren/Auftraggeber
+							- Stakeholder (bzw. deren Sprecher)
+							- Entscheider aus Linien-, Projekt-, bzw. Serviceorganisation
+							- Mitarbeiter (Team)
+						- Inhalte
+							- Vorstellung der Sponsoren/Auftraggeber
+							- Vorstellung der Stakeholder, Teams und Teammitglieder
+							- kurze Darstellung der Erwartungshaltung der Anwesenden an das Projekt
+							- Projektziel und Zeitraum
+							- Grober Fahrplan (Meilensteine, falls schon vorhanden)
+						- Problem bei großen Projektteams: zu viele Teiolnehmer
+							- Lösung: Aufteilung in 2 Phasen
+							- 1. Phase: Alle: Vorstellung der Teilnehmer und Erwartungen sowie Präsentation der Bedeutung des Projektes fgür das Unternehmen
+							- 2. Phase: Nur ProjektteamL Einschwören auf PRojekt und Zusammmenarbeit
+						- Ausgangsartefakte: 
+							- Dokumentation des Workshops
+								- Workshop ist wichtig, nicht seine DOkumentation
+					- P.1.3 Projektmanagementplan entwickeln
+						- Eingangsartefakte: 
+							- Projektauftrag
+							- Projektorganisation
+						- Ziel: Anpassung der Struktur an die Bed¨rfnisse desa Projekts. --> Das Vorgehensmodell PITPM selbst wird also auf die Bedürfnisse des Projektes zugeschnitten
+						- Ausgangsartefakte: 
+							- Projektmanagementplan (PMP)
+								- Definiert wie das  Projekt funktioniert und abläuft
+								- Festlegungen im PMP
+									- Auslassungen oder Änderungen bei PITPM-Prozessen/-Aktivitäten
+									- Werkzeuge und Techniken die zum Einsatz kommen (z.b. Kollaborationsplattformen, Projektplanung, Excel zum Reporting,...)
+									- Wie mit Änderungen umgegangen wird
+									- Wie die Produktionsgeschwindigkeit gemessen werden soll
+									- Ob und wie die Teamstimmung erfasst werden soll
+									- Wie miteinander und zum Management kommuniziert wird (Inhalt, Inhalt Häufigkeit,...)
+									- Vorgaben zum Review und zur Freigabe von Artefakten
+									- Konfigurationsmanagement
+										- Festlegung der Sysyteme und Prozesse für die Aufgabenverfolgung, Defect und Change Request Management,...
+								- Pareto-Effekt/80-zu-20-Regel: 80% der Ergebnisse können in 20% der Zeit erreicht werden. die verbleibenden 20% benötigen 80% der Gesamtzeit und verursachen die meiste Arbeit
+									- Daher: Nicht (immer( sinnvoll jedes Detail vollständig zu planen. Ist der Rahmen verlässlich beschrieben, können einzelne Managementpläne auch später integriert werden.
+						- PM ist zwar verantwortlich für dieErstellung des PMP-Dokuments, nicht aber unbedingt für die Erstellung der Pläne jeder einzelnen Disziplin. z.b. einbindung von Teilprojektleitern empfehlenswert
+					 P.1.4. Risikoplanung konfigurieren
+						- Eingangsartefakte: 
+							- Projektumfangsbeschreibung
+						- Methoden
+							- Risikoplanungsmeeting mit relevanten Projektmitgliedern
+							- Checkliste Risikomanagement 
+								- Ess gibt Checklisten mit Risikotypen
+						- Ausgangsartefakte: 
+							- Erweiterung des PMP um Kapitel zur Konrolle der Projektrisiken
+								- Prozesse zur Identifikation und zum Umgang mit Risiken
+								- Hier noch keine betrachtrung der einzelnen Risiken, sondern Vorgaben für das Risikomanagement
+									- Wann werden Risiken zum ersten mal und in Folge erfasst
+									- Wie werden Risiken sowie ihre Auswirkungen (auf den Projektplan) und Gegenmaßnahmen geführt?
+								-  Bsp: Tabelle für Erfassung im PMP: Spalten: Risiko QUellen; Typen von Risiken (Beispiele); Identifikation durch; Operative Behandlung
+									Personal; Ungenügende Ressourcenverfügbarkeit; Projektmanager; Risiko Manager/Projektmanager
+									Personal; Fehlende fachliche Qualifikation; Projektmanager; Risiko Manager/Projektmanager
+									Technologie; Technische MAchbarkeit; Architekt; Risiko Manager/Projektmanager
+					- P.1.5 Beschaffung und Zulieferungen planen
+						- Eingangsartefakte: 
+							- Projektumfangsbeschreibung
+						- Ausgangsartefakte: 
+							- ERgänzung des PMP um sämtliche Vorgaben für Beschaffung im Projekt
+								- Dienstleitungen, Waren und Zulieferungen
+								- Wichtig: Inkl. Zulieferungen des Auftraggebers, sofern im PRojektauftrag vereinbart
+						- Hier steht in weiten Teilen noch nicht fest, welche Teile zugeliefert werden müssen
+							- nur Festlegung von Kriterien zur Entscheidungsfindung und zu Rahmenbedingungen
+							- Unternehmensinterne und projektspezifische Richtlinien berücksichtigen
+								- Wer kann bis zu welchem Preis beauftragen 
+								- Wer muss in die Beauftragung involviert werden
+								- Welche Standards, Zertifikate,... müssen bereücksichtigt werden
+					- P.1.6 Projekt-Controlling aufsetzen
+						- Prüfen ob die Zahlen stimmen
+						- Kostenplan, der die Ausgabekurve und somitg den Verlauf der Projektkosten skizziert. 
+						- Vorgehen
+							- Überprüfen ob SChaätzung (in Toleranzgrenzen) noch korrekt. Wenn nichtr Genehmigung einholen
+							- Auf Basis der SChätzung Kostenplan erstellen: Projektkosdten über die Zeit. 
+							- Später: Vergleich des Kostenplans mit den tatsächlichen KOsten
+						- Eingangsartefakte: 
+							- Projektumfangsbeschreibung
+							- Aufwandsabschätzung
+							- Projektkosten aus der Vorbereitungsphase
+						- Ausgangsartefakte: 
+							- Earned Value Report
+					- P.1.7 Projektkommunikation planen
+						- Eingangsartefakte: 
+							- Projektumfangsbeschreibung
+						- Ausgangsartefakte: 
+							- Ergänzung des PMP um derartige Planung der Kummunikation mit Stakeholdern und Team, dass
+								- (jederzeit) alle INformationen, die für die MA erforderlich sind bereitstehen 
+								- Informationen verbreitet werden die die Arbeit des PRojektes darstekllen (werben für das Projekt)
+								- Unterscheidung der Informationen zw
+									- sachorientiert (um das Projekt durchzuführen (für Team, ...)
+									- beziehungsorientiert (um das POrojekt zu mögen (primär für Stakeholder)
+						- Nicht jder Kommunikationsweg muss im Detail festgelegt werden
+						- Wichtig sind:
+							- Regelmäßig stattfindende Meetings
+							- Berichtsformate und ihre ZIelgruoppen
+						- Kommunikation ist ein Mittel zur Motivation, daher Informationen in geeigneten Median aufbereiten (Intranet, Besprechuingen, Einzelgespräche)
+					- P.1.8 Softwarteentwicklung konfigurieren
+						- Eingangsartefakte: 
+							- Projektumfangsbeschreibung
+						- Ausgangsartefakte: 
+							- Ergänzung des PMP um Festlegung nach welchem Vorghehens- bzw Prozessmodell die eigentliche SOftwareentwicklung durchgeführt wird
+								- Prozessmodell beschreibt den oprganisatorischen Rahmen 
+									- alle cdurchzuführenden Entwicklungsaktivitäten
+									- ihre logische Reihenfolge
+									- verantwortliche ROllen
+									- einzusetzende Methoden und Werkzeuge
+									- zu erzeugende (zwqischen-) Ergebnisse/Artefaktea
+					- P.1.9 Anforderungsanalyse planen
+						- Eingangsartefakte: 
+							- Projektumfangsbeschreibung
+						- Ziel: Festlegung, wie Anforderungslanalyse von stattn gehen soll
+							- Mittel zur Erhebung der Anforderungen
+								- Schriftliche Benutzerbefragung, Interviews, ANalyse von Dokumenten (Geschäftsprozessbeschreibungen),...
+							- Vorzubereitende Arbeitsmittel zur ERhebung
+								- Interviewwleitfäden, Vorlagen zur Interviewprotokollierung,...
+							- Prototyping mit Benutzermitwirkuing?
+								- ggf. Auswahl der Benutzer
+							- Organisatorische Aspekte
+								- Terminereinbarungen mit Nutzern,...
+							- Hard- und softwaretechnische Infrastruktur
+								- Office Produkte, Umfragesysteme,...
+							- Abnahme- und Freigabeprozesse
+							- Möglichst enge Integration des Auftraggebers. 
+					- P.1.10 Change-Request-Prozess planen
+						- Eingangsartefakte: 
+						- Methoden und Werkzeuge
+							- z.b. Trouble-Ticket-Systeme wie Jira
+						- Ausgangsartefakte: 
+							- CR-Prozess (Als Teil des Projektmanagementplans)
+								- Beschreibt wie Änderungen am Projektumfang/-Inhalt verwaltet/gehandhabt werden
+								- Wie wird zwq geänderten und neuen Anfragen diffferenziert
+								- Wann werden änderungsvorschl¨âge akzeptiert (z.b. nur einmal im Vorfgeld jeder Iteration)
+								- Wer kann überAufnahme entscheiden? (z.b. Projektsteuerungsgremium)
+								- Wie erfolgt Freigabe und Budgetierung von Change Requests?
+					- P.1.11 Qualitätsplan erstellen
+						- Eingangsartefakte: 
+							- Projektorganisation
+							- Projektumfangsbeschreibung
+						- Ausgangsartefakte: 
+							- Ergänzung des PMP um festlegung von konkreten Qualitätsstandards (für Projekt und für das zu entwickelnde SW-System), und wie diese zu erreichen sind
+								- Zu jedem liefergegenstand wird festgelegt, wie Qualität bereits bei Entstehung implementiert und kontrolliert werden kann
+							- Testkonzept (Als Teil des Projektmanagementplans)
+								- Wer testet zu welchem Zeitpunkt mit welchen Methode und Werkzeugen welche Systembestandteile des zu entwickelnden Softwareprodukts
+								- Arten: Modul-/Komponententest, Last-/Systemtest, Abnhametest
+								- Prüfziele
+									-  Vollständigkeit der spezifizierten Anforderungen (Systemtest)
+									- Fehlertoleranz, Performanz (Lasttest)
+									- Benutzbarkeit (Usability-Test) 
+				- Kontrollpunkt K2: Projekt Konfiguriert
+					- Verabschiedung der Prozessbeschreibung
+						- Bedingung: Projektmanagementplan mit seinen unterplänen wurtde edrstellt
+				- P.2 Stakeholder analysieren (siehe Bsp. für Prozesse)
+					- Wer hat welche Intereessen am Verlauf oder Ergebnios des Projektes, welchen Einfluss können dise auf das Projekt haben
+					- Stakeholder/Interessenträger: Person oder Gruppe, die ein bereichtigtes Interesse am Verlauf oder Ergebnis eines Prozesses oder Projektes hat
+						- Neben Personen und Gruppen können auf IOnstitutionen, Dokumente odewr Regelwerke als Stakeholder aufgefasst werden
+						- Spielen in jeder Phase eine wichtige Rolle
+							- Bedürfnisse befriedigen 
+								- können sehr unterschiedlich, gegenläufig und widersprüchlich sein
+						- Aktive Stakeholder
+							- Arbeiten am Projekt mit oder sind direkt vom Projekt betroffen
+							- z.b. Projektleiter, Projektmitarbeiter, Kunden,....
+						- Passive Stakeholder
+							- Sind von Projektdurchführungg oder den Projektauswirkungen nur indirekt betroffen
+							- z.b. Interessenvertretungen, Anwohner bei Bauprojekt, Familienmitglieder der Projektmiutarbeiter,...
+					- P.2.1 Stakeholder identifizieren
+						- Eingangsartefakte:
+							- Projektauftrag
+							- Projektorganisation
+							- Weiterführende Infos zum Unternehmen
+							- Unternehmensorganisation
+						- Bewährte Vorgehensweisen
+							- Einzelgespräche mit betroffenen Mitarbeitern
+							- Einzelgespräche mit Mitarbeitern des Projektteams
+							- Worklshops mit Projektteam
+							- Analuse des OPrganigramms
+							- Analyse der Gremienbesetzung im Unternehmen (z.b. Mitarbeitervertretung)
+							- Durchsicht des Intranets
+							- Lesen von Newslettern uind sonstigen Medien zur Unternehmenskommunikation
+						- Ausgangsartefakte:
+							- Stakeholder-Liste
+								- z.b. nach Bezug zum Projekt und zugehörigkeit zum Unternehmen in den 4 Quadranten eines Koordinatensystems, welches auf x-Achse intern, extern hat, auf y achse indirekt direkt
+								- intern: gehören zu Firma in der edas Projekt durchgeführt wirtd (beauftrat Firma A Firma B mit dem Projekt --> in firma A: intern, iun firmma B: extern). 
+								- Bsp: intern, direkt: 
+									- Mitarbeiter/Abteilungsleiter von Fachabteilungen, die neue Funktionalitätn nutzen 
+									- Projektsponsor, Auftraggeber, Projektleiter des Kunden, Projektleiter/Projektmitarbeiter des Kunden
+								- Bsp: intern, indirekt:
+									- Betriebsrat/Mitarbeiter-Vertretung der durchgführenden Firma (z.b. intereessiert daran ob überstunden anfallen)
+									- Interessenvertretung (z.b. leitende Angestellte, Außendiesntvertretung
+									- Abbteilung Rechnungswesen *(Verbuchung der Projektkoisten)
+									- Abteilung CControlling (erstellung der Budgets)	
+									- Abteilungen, die indirekt von Projekt betroffen sind
+								- BspL extern, direkt:
+									- Exterener Projektleiter
+									- Externe Projekt mitarbeiter
+								- Bsp: extern, indirekt
+									- Externe Lieferanten und Dienstleiter
+										- weil nicht an Projektergebnis interessier
+									- Mitbewerber
+									- Politische Stakeholder (wahrscheilich hier)
+								- Zu erfassenden Daten der Staeholder
+									- Name, Vornahme
+									- Kontaktdaten
+									- Direkt/Indirekt
+									- Intern/Extern
+									- Rolle im Projekt
+									- Rolle im operativen Tagesgeschäft (Unternehmen, Abteilung,...)
+					- P.2.2 Anfoirderungsgeber identifizieren
+						- Methoden:
+							- Gespräche
+							- Workshops
+						- Ausgangsartefakt: Stakeholder-LIste (aktualisiert)
+							- Ais Stakehopldern die Anforderungsgeber ermitteln
+								- Haben Know-How rund um zu entwickelnde Features
+								- insb hinsichtrliche betriebswirtschaftlicher Aspekte, die in der SW abgebildet werden sollen
+							- Evt. eigene Rolle für Umgang mit Anforderungen/Anforderungsgebern: Anforderungsmanager. GIbt  es aber in R3ealität nicht
+								
+					- P.2.3 Stakeholder einschätzen
+						- Ziel: Macht und Interessen (Erwartungshaltung) der Stakeholder im Unternehmen bestimmen
+						- Grund: Planung der Maßnahmen um Stakeholder erfolgreich einzubinden
+						- Macht anhand der verschiedenen Machtkriterien und ihrer Geweichtung ermittelbar
+							- Formale Macht (Machtposition, MAchtbefugnis, Hierarchie_
+								- Positionsmacht (in der Organisationsstruktur, z.b. Einkauf)
+								- Kontrollmacht (Kontrolle über Entscheidungsprozesse)
+									- Wie kommen Entscheidungen zustande?
+									- Wer beeinflusst die Entscheiodungsfindung?
+									- Wer verwaltet den Zugang zu welchen Ressourcen)
+							- Ressourcenmacht (Verfügungsmacht über beschräkt vorhandene Mittel)
+								- z.b. über Mitarbeiterzeit, Rechnerm,...
+								- Technologiemacht (Verfügungsgewalt über Technologien)	
+								- Welkche Ressouyrcen werden im Projekt benötigt?
+								- Wie werden Ressourcen zugeteilt?
+								- Wer hat bei der ZZuteilung von Ressourcen ein Vetrorecht?
+							-  Persönliche Stärke (Identität)
+								- Wer prägt die zentralen Werte des Projektumfeldes?
+								- Wer steht hinter den vom Projekt betroffenen Prozessen und Strukturen
+							- Wissens- und INformationsmacht
+							- ...
+						- Methoden, Werkzeuge, Techniken 							
+							- Einzelgespräche, Workshops,..
+							- Power-Interest-Matrix
+								- zur Bestimmung eines Wertes für die Macht eines Stakeholders
+								- Matrix/Tabelle für jeden Stakeholder erstellen. Spalten: Kriterium; Gewichtung; Punktzahl; Ergebnis.    Zeilen: Kriterien, footer: Ergebnis Einschätzung Macht
+									- 1. Relevante Machtkriterien auswählen
+									- 2. Ausgewählte Kriterien in Bezxug auf Projektumfeld gewichten
+										- Mehr/weniger nach Gefühl
+									- bsp. Formale Autorität: Gewichtung 0.5;  Positionsmacht: GEwichtung 0.2, Technologiemacht: Gewichtung 0.2; Persönliche Stärke: Gewichtung 0.1
+									- 3. Für jedes Kriterium 1 (niedrig) bis 4 (sehr hoch) punkte vergeben
+								 - 	- Punktzahl mit gewichtung jew multiplizieren und in ergebnisspal te eintragen. un footerzeile ergebnisse zusammenaddieren
+									- In Blasen diagramm visualisieren
+										- x-AchseL Interesse eines Stakeholders am Projekt (unabhängig davcon ob positiv oder negativ) 
+											- Ermittelt aus Gesprächen, Workshops,...
+											- Skala 1 bis 4
+										- y-Achse: Machtwert
+										- Größe der Blasen: Beeinflussbarkeit der Stakeholder (groß: einfach beeinflussbar)
+										- Blitz um negatives Interesse zu  indizieren
+										- Aufteinlung in 4 Quadranten: 
+											- Gesetzte (hohe Macht, geringes Interesse)
+												- Meist Auftraggeber, da dieser meist viel Projekte hat
+												- positives I: Untesrtützt das Projekt aufgrund seiner Aufgabe oder Rolle und leistet deshalb seinen Betirag
+												- negatives I: Müsste eigentlich Projekt aufgrund seiner Auvfgaben/Rollen unterstützen, versucht dies aber zu umgehen, z.b. durch Ausreden für seine nicht-Beteiligung
+											- Spielmacher (Hohe macht, großes interesse)
+												- positives I: Beteiligt sich aktiv und ist von großer Bedeutung für den erfolg
+												- negatives I: Beteiligt sich aktiuv am Projekt, versuch tdabei aber das Projekt auf den von ihm angestrebten Weg umzupolen
+											- Statisten (Geringe Macht, kleines Interesse)
+												- positives-, negatives I.: Verhält sich neutral, beeinflusst das Projekt weder positiv noch negativ
+											- Joker (Geringe Macht, hohes interesse)
+												- positives I: HAt Interessen am Projekt, ist jedoch nicht unmittelbar aktiv. KKann durch geschicktes Einbinden zum Projekterfikg beitragen
+												- negatives I: Hat gro-es, jedoch verdecktes negatives Interesse. Beobachtet Projekt eher aus der ferne
+									- 
+						- Ausgangsartefakt: 
+							- Stakeholder Matrix
+							- Ergänzung der Stakeholder-Liste um die Ergebnisse der einschätzung ihrer Macht und Interesse. 
+								- Subjektive größe. 
+								- Kein Selbstzweck, sondern dient der planung der Maßnahmen
+					- P.2.4 Maßnahmen planen
+						- Methoden, Werkzeuge
+							- Tabellen Zielvorgaben für Kommunikation (Spalten: Stakeholder-Einordnung, Verhalten (siehe P.2.3), Zielvorgabe/Kommunikation) mit Stakeholdern mit
+								- positiven Interesse am Projekt		
+									- Statist;..; Sehr geringer Aufwand
+									- Joker;...; Informiert halten/bearbeiten
+									- Gesetzter;...; Zufrieden halten
+									- Spielmacher;...; Aktiv/eng bearbeiten/einbinden
+								- negativen Interesse am Projekt 
+									- Statist;..; Sehr geringer Aufwand
+									- Joker;...; Aktiv/eng bearbeiten/einbinden 
+									- Gesetzter;...; Aktiv/eng bearbeiten/einbinden
+									- Spielmacher;...; Aktiv/eng bearbeiten/einbinden
+						- Ausgangsartefakt: Ergänzung des PMP um Kummunikationsplan
+							- z.b. tabelarisch: 
+								- Spalten:  Zielvorgabe, Frequenz, Medium, Inhalte
+								- bsp: Sehr geringer Aufwand; Meilensteinbezogen; Newsletter, Intranet; Allgemeine Produktinformationen
+									Informiert halten Regelm¨äßig nach Absprache, themenbezogen; Newsletter, WOrkshop, INformationsveranstalltung; Themenm, die die Stakehoplder betreffen, Statusiformationen
+									Zufirieden halten; Regelmäßig, Intervalle nach absprache; Persönliche Gespräche, email; Definierte Statusinformatinoen
+	 								Eng bearbeiten/einbinden; wöchentlich; persönliche gespräche, email, worksho; Vision, detailierte Status- und Protokollinformatinoen
+							- Ziel: nicht: Stakehoolder formen. sondern: wertschätzende Beziehung aufbauen
+								- durch Transparenze (kommunizieren was immer möglich)  
+				- P.3 Anforderungsliste erstellen
+					- Anforderungen (angemessen) detaillieren und priorisieren
+					- Alle bekannten funktionalen und nicht funktionalen Anforderungen zur Erreichuing des Projektziels, sowie Arbeitsergebbnnisse, die zur Erreichung der Projektziele erbracht werden müssen. 
+					- Auftraggeber legen Prioritäten fest
+					- Am besten tabellarisch, dafür Softwarewerkzeuge zu empfehlen
+					- in PITPM kein bestreben die Anforderungsliste zu Projektbeginn umfassen dund präzise zu vervollständigen und erst anschließend mit SW-Entwicklung zu beginnen.
+ 					  sondern: Anforderungsbestimmung mit der SW=Entwicklung verzahnt. Anforderungsliste wird im ges. SW-Entwicklungsprozess weiterentwickelt
+					- P.3.1 Anforderungen erheben
+						- Eingangsartefakte:
+							- Projektumfangsbeschreibung
+							- Anforderungsliste
+							- Aufwandsschätzung
+							- Projektmanagementplan
+						- Methoden:
+							- Anforderungsworkshops
+								- Potenzielle Teilnehmer: Pm, Entwicklungsteam (sollem gleich mitverstehen und evt fragen srtellen), Endanwender, weitere Stakeholder
+								- Geemeinsam Anforderungen in Form von Usder Stories und/oder Use Cases erfassen
+								- Karteikarten umm aktive Mitarbeit zu erm;glichen und für leichte Gruppierung von anforderungen
+								- Ziel: Gemeinsames Verständnis überAnforderungen bei allen Stakeholdern
+								- Evt. unterscheiden:L MUSS-, KANN- und DARF-NICHT-Anforderungen
+							- Experteninterviews
+							- Teilnehmende Beobachtung
+							- Durchsicht bestehender Dokumente
+							- Bei Erhebung: Anforderungen als User Stories oder Use Cases erfassen
+								- Beschreiben Systemfunktionalitäten aus Sicht der späteren Anwender
+								- User Stories: Siehe Projektvorbereitung
+								- Use Case (Anwendungsfall)
+									- aus objektorientiertertr SW-Entwicklung
+									- Bündelt alle mögliuchen Szenarien, die eintreten können, wenn ein Akteur versucht, miut Hilfe des betrachteten Systems ein bestimmtes fachlichyes Ziel (business goal) zu erreichen
+									- grafisch repräsentiert durch UML-Anwendungsfalldiagramm
+										(- Außen akteure (strichmännchen), innerhalb der System Boundary Use Cases (kreise, enthalten nur bezueichnugn), Striche von akteuren zu use cases . Beziehungen (z.b. <<extend>>) zw use cases)
+									- Kann zusammenhang für menge von User Stories darstellen
+						- Ausgangsartefakt: Anforderungsliste (aktualisiert)
+							- enthällt alle bekannten funktionalen und nicht funktionalen Anforderungen
+								- dafür zugriff auf alle beisher erstellten Dokumente
+								- funktionale Anforderungen
+									- siehe vorbereitungsphase
+									- Benutzeranforderungen: Aus benutzersicht, auf höheren Abstraktionsniveau
+										- z.; Anmeldung zum entwickelnden System muss passwortgeschützt sein
+										- zuerst
+									- Systemanforderungen:
+	 									- Beschreibung der Benutzeranforderungenj auf feingranularem möglichst präzisem Niveau
+										- z.b. Beschreibung welche Länge und welche Sonderzeichehn im Passwwoirt zulässig/gefordert sind
+										- erst wenn wirklich implementieren wollen (wegen möglichkeit, dass die anforderung doch noch wegfällt)
+											- oft sinnvoll vor kurz vor der Iteration in der eine benutzeranforderung umgesetzt wertden soll die zugehörigen Systemmanforderungen zu beschreiben
+							
+					- P.3.2 Anforderungsliste priorisieren
+						- Ausgangsartefakt: Anforderungsliste (aktualisiert)
+							- Anforderungsliste ist priorisiert (zuerst umzusetzendes am höchsten
+								- Wichige Anforderungen sind son aufjedenfall im system und könne frühzeitig genutzt werden
+								- können frühzeitig validiert werden (anforderungen richtig verstanden?)
+								- Konzentration auf Detaillierung der wichtigen Anforderungen. (Niedrig priorisierte erst später detailieren)
+								- Team lernt fr¨hzeitig diue für wirtschaftlichen Erfolg entscheidenden Anforderungen kennen
+								- Kriterien der Priorisierung
+									- Wertt und Nutzenbetrachtung
+										- Welcher Mehrwert wird durch Umsetzung einer Anforderung geschaffen?
+										- Auch in Hinsicht auf weiteren Projektverlauf (Wissen generieren)
+									- Risikobetrachtung
+										- Werden durch Umsetzung einer Anforderung Risiken beseitigt oder minimiert?
+											- Risikliste aus Vorbereitungsphase regelmäßig überarbeiten
+									- Kostenbetrachtung
+										- Was kostet die Umsetzyunge inerAnforderung? (geschätzt)
+									(- Sinnvolle priorisierung oft nicht leicht zu finden, dafür gibt es Modelkle, z.b. Kano-Modell)
+					- P.3.3 Anforderungsliste fertigstellen
+						- Ausgangsartefakt: Anforderungsliste (aktualisiert)
+							- Qualität der einzelnen Anforderungen nochmal überprüft
+								- z.b. durch Qualitätsmerkmale INVELST
+									- Independent (unabhängig): unabhägig voneinander, in bel. Reihenfolge umsetzbar. Dafür minimieren. --> Flexibilität im SW-Entwicklungsprozess
+									- Negotioable (verhandelbar): Solange nicht Teil einer laufenden Iteration k;nnen Anforderungen geändert oder ersetzt werden
+									- Value (nützlich(): müssen Nutzen für Kunde/Enedanwender darstellen
+									- Estimable (schätzbar): von Team in Hinbliock auf Umsetzungsaufwand schätzbar. dafür so beschrieben, dass von Team vollständig verstanden
+									- Small (klein): sukzessive so zerlegt, dass i einer Iteration bearbeitbar. --> Verständnis erhöht, können präzieser gschätzt werden
+									- Testable (testbar): derart testbar, dass sie objektiuv freigegeben und extern vom Auftraggeber abgenommen werrden können
+								- falls vorhaneden von Anforderungsmanager
+							- Anforderungsliste ist jetzt hinreichend detailliert, priorisiert und qualitätsgesichert
+				- P.4 Release- und Itereationsplan entwickeln
+					- Gesamtprojekt in grobe Iterationen und Releases heruntrerbrechen
+					- Iteratives Vorgehen
+						- Iteration: Prozess mehrfachen wiederholens gleicher oder ähnliche rHandlungen zur Annäherung an eine Lösung oder ein bestimmtes Ziel
+						- Dem Kunde so schnell wie möglich konkreten nutzen, die QUalität und  den Mehrwert der SW deutlich machen durch iteratives vorgehen, anhand lauffähiger (evtl sogar einstzfähiger) versionen
+					- Notwendig, da sonst kaum möglich das SW-Entwicklungsprojekt
+						- vorrausschauend zu steuern
+						- wichtige Entscheidungen bewusst/fundiert zu treffen
+						- Funktionalität der Anwendung, Fertigstellungstermin und anfallende Kosten miteinander in Einklang zu bringen
+					- SChafft Transparenz und ein gemeinsams Verständnis der Reihenfolge
+					- P.4.1 Release- und Iterationsplan entwickeln
+						- Eingangsartefakte:
+							- Projektumfangsbeschreibung
+							- Anforderungsliste
+							- Aufwandsschätzung
+							- Projektmanagementplan
+						- Ausgangsartefakt: Release- und Iterationsplan
+							- Plan, der bestimmt in welchem groben Zeitrahmen die identifizierten Anforderungen umgesetzt werden
+							- wieviele Iterationen benötigt werden
+							- Von wann bis wann die einzelnen Iterationen dauern
+							- Wann welche Anforderungen aus der RAnforderungsliste voraussichtlich umgesetzt werden
+							- Wann Softwarereleases ausgeliefert und beim Auftraggeber in Betrieb geno0mmen werden
+							- Idr kein endg¨ltiges Dkument
+								- Muss nach jeder Iteration (in Abstimmung mit AUftraggeber) aktualisiert unnd ggf erweitert werden. 
+								- z.b. wenn Aufwände zur Umsetzung von Anforderungen durch Verfeinern, Hinzufügen oder Streichen verändertt werden. (ebenso wird dann die Aufwandssch¨tzung angepasst)
+								- z.b. wenn Performanz/Entwicklungsgeschwindigkeit größer/kleiner als erartet ist
+							- Beispiel: Tabelle, Spalte für jede iteration. Zeilen: Starttermin, Endtermin, Anz Arbeitstage (Werktage, unabh davon ob das ganze team daran arbeitet),. Iterationsziele. Explorative Iteration, Anforderungs-IDs, Kommentare
+								- Iteration 1: 11. März 2013; 29. März 2013; 14; Risiken der DB-Anbindung prüfenl ja; 13-15, 17, 18, 20l Karfreitag am letzten Tag der Iteration
+								- Iteration 2:  2. April 2013; 26. April 2013l; 19; Thema A fertiggestellt; nein; 21-25, 27, 29-34, 36; Installation bei AVG in der Folgewoche
+						- Explorative Iteration
+							- Zum erwerben von notowendigen Kenntnissen und Erfahrungen im Umgang mit neuen Technologien
+							- Experimente: Risiken identifizieren oder Faragenm/Unklarheiten beseitigen
+							- Idr zu Beginn des Projektes und kürzer als die anderen
+							- Ziel: nicht: lauffähige Version der SW entwickeln, sondern: Wissens- und Erkenntnisgewinn
+							- Maß der UNsicherheit bestimmt Notwendigkeit. 
+							- Will Kunde meist nichtzahlen, ausser er hat z.b. eine schlecht beschriebene eigene Schnittstelle
+						-  Manchmal verzicht in agil ausgerichteten SW-Entwicklungsprojektenb 
+							- kurzfristige Planung von Iteration zu Iteration
+							- spez bei kürzeren, unkritischen Projekten
+						- Dauer Iterationen:
+							- 3-5 WOchen (heute oft auch kürzer)
+							- möglicht gleichebleibend (giechmäßiger Arbeitsflow. Gute Schätzbarkeit wieviele Storypoints das Team ori Woche umgesetzt bekommt)
+							- evtl bei kritischen Proujekten zu Beginn möglcghst kurze Iterationen (1-2 Wochen)
+						- Sherr verschachtelt mit P.5, da die Abhängigkeiten der Anforderungen bbekannt sein müssen
+
+				- P.5 Projektplan erstellen
+					- Wann was machen. (nicht: Projektmanagementplan: wie)
+					- Dejn Plan für das Gesamtprojekt erstellen und Ressourcen planen (Projektplan)
+						- Nicht shr genau spezifiziert
+						- wichtigste Meilensteine (z.b. Releases, Präsentationen, Iterationen, Projektende
+						- Festlegung von Vorgängen und Meilensteienen einschließlich ihrer zeitlichen Zusammenhänge, Uzordnungen von Ressourcen und Kosten, sowie termintreue oder kapazitätentreue Durchrechnung der Planung
+					- P.5.1 Basis-Projektplan erstellen 
+# Ab hier (VL 7, s. 25) gröber
+						- Eingangsartefakte: 
+							- Iterationsplan
+						- Möglicher Zwuschenschritt: PRojektstrukturplan (Work Breakdown Struxure WBS)
+							- eher obsolet, da auch die grobe Anforderungsliste gute Basis fuur erstellung des Projektplans ist
+							- Bei Agieren vorgehen geht n  ja von Änderungen aus, weshalb die zerlegung nach WBS teilweise verschwendete arbeit ist
+							- Anforderungen in handhabbare (von Perso/Gruppe in begrenztem Zeitrahmen durchführbar) Komponenten (Aufgaben) herunterbrechen.
+							- Hierarchische Zerlegung des Projektproduktes (Baum)
+								- In Blättern: ARbeitspakte, denen möglichst eine verantwortliche Person zugewiesen werden können (zielgr¨øoße der Pakete: 2-8 Personentage
+									- meist paralel möglich
+								- Wurzel: Projekt, Sonstige Knoten: Teilaufgabe
+								- Möglichekiten der AUfgabenzerlegung (obsolet): Funktionsorientierte Gliederung (art der Tätigkeit/Unternehmensfunktionen), Objektorientierte Gliederung (Projekt), Phasenorientierte/Zeitorientierte Gliederung, Mischformen
+						- Vorgehen:
+							- Teilprojektleiter einbeziehen
+							- bisher gesammelte INformationen verwenden 
+								- Iterationsplan	
+								- Grobanforderungen
+							- evt. Zerlegung in Arbeitspakete WBS
+							- Projektplanungssoftware nutzen (z.b. MS Project, ProjectLibre)
+							- Prioritäten berücksichtigen
+							- Abhängigkeiten berücksichtigen
+						- Ausgangsartefakt: Ganzheitlicher Projektploan, um
+							- Informationen, wie Arbeit zu organisieren, inkl zeitlicher Dimension
+								- Alle zentralen Termine
+							- neben Arbeitspaketen auch Zusammenhänge und damit zeitlichen Ablauf und Sequenz einzelner pakete
+							- Kriterien an Projektplan
+								- Stringenz *einheitliches SChema, wiederholende Phasen gleich aufbauen, Arbeitspakete sprechend benennen)
+								- Realismus
+								- Übersichtlichkeit
+								- Granularität (Unterste EBene der Arbeitspakete sollte so fein sein, dass verstenndlich, dennoch so grob, dass Reporting darauf sinnvoll ist
+					- P.5.2 Ressourcen planen
+						- Eingangsartefakte:
+							- Arbeitskalender und Verfügbarkeiten
+						- Projektplanungssofware wie MS Project hilft:
+							- Aufgaben heißen in MS Project Vorgänge
+									- 3 Vorgangsarten
+										- Feste Dauer
+										- Feste EInheiten
+										- Feste Arbeit
+									- Dauer: Zeitliches Intervall zw Anfang und ENde des Vorgangs
+										- Default: Dauer = Arbeit/Ressourcen-Einheiten
+									- Einheit: Wie vielw Aufwand eine Ressource relativ zur Dauer auf einen VOrgang leisten soll (%)
+									- ArbeitL Aufwand gemessen in Zeiteinheiten
+									- Tabellem, jew. Vorgangsname, Arbeit, Dauer, VOrgänger,...
+-										Gant Diagramm stelt due abh dann mit zeitskala dar
+								- Darstllung der Abhängigkeiten ohne ZeitSkala ist ein Netzplan 
+									- dabei Kritische Pfade in rot dargestelllt. Blau, wo zeitliche pufer vorhanden sind
+									- Kriticher Pfad: 
+										- Abfolge vin Vorgängen und Meilensteinen, die die Mindestprojektdauer bestimmen
+										- Vorgänge auf kritischen Pfad sind voneinander abh und haben keinen zeitlichen Puffer
+										- mehrere möglich
+								- alles eingetragen, dann Automatisierung von MS PRojekct:
+									- Ressourcenabgleich:Beteiligung jeder Ressource an Afgaben so reduziert, dass nicht durch gleichzeitigeAufgaben überlastet
+									- Berechnung kritischer Pfade
+								- verwaltet auch kompliziertere Situationen, wie z.b. ungleichmäßige Verfügbarkeit von Ressoourcen, Zeitliche Randbedingunen einzelner AUfgaben, Zuordnuungsprioriäten,...
+						- In praxis eherL Grobe planung ohne Werkzeig gut überblickbar. Für feine Planung funktioniert das Werkzeug nicht gut genug
+							- Umfang manacher AUfgaben ungewiss, hängt auch davon ab wer sie erledigt
+							- Störunge nn im Ablauf wodurch das ständige Umplanenviel zu aufwändig wird
+							- kleinerere/mitkere Projekte verwenden daher selten MS Projects, weil sich derAufwand nicht lohnt
+						- Ausgangsartefakte:
+							- Ganzheitlicher Projektplan (aktualisiert)
+								- beinhaltet Ressourcenplanung
+								- Für jedes Arbeitspaket frühester/spätester Anfang/Ende, um Personalengpässezu vermeiden
+							- Rollen-/Aktivitätsmatrix
+				- Kontrollpunkt K3: Projektplanung abgeniommen
+					- Bedingung: Gesamtprojektplanung mit Berücksichtigung der Releasetermine wurde erstellt und vm Auftraggeber abgenommen
+					- Man hat jetzt klaren Fahrplan *der abgenommen werden sollte inkl	
+						- Prozesse zum Anforderungungsmanagement
+						- Erhobenen Anforderungen, zumindest soweit, dass Detailplanung und mittelbarer Umsetzung möglich
+						- Risikomanagementplanung *inkl erstem Risikooworksho)
+						- Qualitätssicherungsplanung
+						- Kommunikationsplanung
+						- Beschaffungsplanung
+						- Projekt- und Kostenplan
+							
+		- Durchführung
+			- Praktische Umsetzung des Projekts (Entwicklung)
+			- Umsetzung der Anforderungen (im Rahmen des PM-Plans)
+			- Optional: in Iterationschleifen (bsp: It1: Protoyp, It2: Release 1.0, ...)
+				- für die meisten Projekte iteratives vorgehen empfohlen
+				- Vor jeder Iteratuion: Menge der umzusetzenden Anfoderungen wird Feinspezifikation unterzogen
+				- In jeder Iteration: Anforderungen werden umgesetzt
+				- Am ende jeder Iteration
+					- Ergebnis mit ursprünglicher Planung verglichen
+					- Ergebnis wird Kunde präsentiert und zur Verfügung gestellt (falls Releaser)
+					- Die Abgeschlossene Iteration wird analzsiert *Produkt sowie Prozess)
+					- nächste Iteration wird geplant (falls nicht am ende)
+					- Kontrollpunkt K4 Planung der Iteration abgenommen
+						- Abnahme bezieht sich auf Anforderungen
+						- kann je nach Vertragsform durch verschiednee Gremien erfolgen. 
+					- Kontrollpunkt K5 Bereitstellung zur Abnahme
+						- Release oider Enpprodukt ist auf Sicht des Auftragnehmers fertig (ggf inkl Dokumentation, SChulungsunterlagen, ...
+			- Steuerung der Projektprozesse
+			- PM steuert anhand des definierten PLans
+				- Überwachung und F¨hrung 
+					- Kommunikationsmanagementl Konfliktmanagement; Proiikollieriung...
+				- Reaktion in verschiedenen Situationen
+					- Verfehlungen hinsichtlich
+						- Sach-, Termin-, Kosten- oder Qualitätsziel
+					- Interpersonelle (zw Mitarbeitern) oder Intrapersonelle (bei einzelnen Mitarbeitern) Probleme
+				- Steuernder EIngriff muss dokumentiert und ggf mit dem AUftraggeber auf basis einer RIsikoanalyse abgestimmt werden
+			- Endet mit Abnahme des Liefergegenstadndes (Relesase oder Endprodukt)
+				- z.b. nur eine einfache Lösung baue
+				- Code, DOkumentation, Konfigurationsdateien, Tests,...
+			- Prozesse (und deren Aktivitäten) :
+				- D.1 Teams bilden und Aufgaben zuweisen
+					- min2 Mitglieder
+					- Struktur des Teams ist aufgaben und Zielorientiert beschriebe
+					- Entwicklung der Gruppe hin zum Team
+						- Sinnvolle Koordiniation von Teilaufgaben. Berücxksichtigung der individuellen Fertigkeiten und Kenntnisse
+						- Ausgeprägtes Verantwortungsbewusstsein aller Mitglieder
+						- HArtnäckige Zielorientierung
+						- Gegenseitiges Anspornen
+				- D.2 Projektteam steuern
+				- D.3 Projektumfang kontrollieren und anpassen 
+				- D.4 Feinspezxifikation für Iteration erstellen
+					- Es wird Menge von Anforderungen mit folgenden Eigenschaften für Iteration auisgewählt.
+						- Hoch priorisiert
+						- Inhaltlich zusammengehörend
+						- Technische zueinander kompatibel
+					- Feinspezifikaiton der zwar priorisierten aber noch eher vage formulierten Anfoprderungen notwendig
+					- D.4.1 FGeinspezifikation f¨¨r Iteration erstellen
+						- Ausgangsartefakte:
+							- Abnahmetestfälle
+								- Vorbedingungen
+								- zu prüfende TRestobjekte
+								- Eingabedaten
+								- Schritte der Testdurchführung
+								- Erwartete Etgebnisse
+								- Erwartete NAchbedingungen
+								- Ansätze
+									- Anforderungsbasiertes Testen
+									- Äquivalenzklassentest
+										- Äquivalenzklasse: Gruppe von Daten mit gleic hen Eigtenschaften. z.b. negative Werte, Namen mit weniger als 31 Zeicfhen,...
+									- Strukturtests
+									- Abnahmetests
+								- Unterteilung in Positivtests und Negativtests (Robustheitstests
+								- Hilft noch einmal die Anforderungen zu präzisieren
+							- Feinspezifikation
+								- Use-Case-Diagramm bzw. Iser Stories
+								- Textuelle Beschreibubung und Erleuterungen
+								- Übderfu¨hrung der Benutzeranforderungen in möglichst implementierungsnahe Systemanforderungen
+
+				- D.5 Feinstpezifikation technisch abnehmen
+					- von Softwarearchitekten
+					- Kontrollpunkt K4 Planung der Iteratino abgenommen (siehe oben)
+				- D.6 Projektkommunikation steuern 
+				- D.7 Risiken überwachen
+				- D.8 Zulieferung steuern
+				- D.9 Software entwickerln
+				- D.10 Projektkosten überwachen
+					- Zur reinen Kontrolle: L:eistungsreporte mit den Verbrauchsdaten
+							- Jedes Teammitglied verbucht seine erbrachten Aufwände
+								- diese können mit Kostenplan ins verhältnis gesetzt werden
+							- Antwort zu: Wurden Auwände wie geplant erbracht?
+							- Diagramm Projektkosten/Zeit. gestrichelte Liniie:plan der Kosten
+	q					- Analyse der Kosten in Hinblik auf weitere Aspekte (z.b. restaufwände) macht Projektzustasnd sichtbar. Hier wird periodischer Leistungsreport erstellt
+					- D.10.1 Projektkostendaten erfassen
+						- Zusätzlich zu Erfassung der geleisteten Aufwände wird AUssage über Fertigstellungsgerad benöptigt
+						- Man lässt Mitarbeiter den Restaufwand schätzen
+							- umgekehrte denkweise, da sonst zu optimistisch
+							- nebeneffet: Mitarbeiter müssen restlichje AUfgaben im detail durchdenken		
+						- Ergebnisartefakt: Earned value Report (Entwurf)
+							- Entwurf einer Aktualisierten Earned-Value-Analyse
+							- Inkl Summierung aller angefallenen Aufwände zum stichtag
+					- D.10.2 Projektkosten aktualisieren
+						- PM aktualisiert alle Verbrauchs- und Schätzzahlen
+							- ergibt sich dadurch fürs projekt bedrohliche situaition
+								- in Statusbericht dokumentiert und evtl Change-Requests ableiten
+						- Earned-Value-Analyse
+							- INsturment zur Überwachung uind Steuerung des Projektvortschritts
+							- integrierte Betrachtung von Kosten, Zewit und Leistung (also alle zusammmen)
+							- für bestimmte Aufgabe (z.b. Projekt, Teilprojekt, Arbeitspaket(, zu bestimmten Zeitpunkt
+							- Zur Berechnung sind die  Plan und Istwerte, sowie wenn vorhanden die geschätzten Restaufwende notwendung
+							- Aus EVA können prognosen für erwartete Gesamtkosten und Ferttigstellungszeitpunkt abgeleitet werden
+							- diveerser projektrelevante Kennzahlen (z.b. CPI, SPI), die als Indikator für frühwarnsystem genutzt werden können
+							- Warum?
+								- Projektmanagement bnötigt antwort auf fragen wie
+									- aktuelle Ist-Kosten geriner als Plan-Kosten.. Projekt gut oder hinter defininertem Zeitplan?
+									- Vorraussichtliche Kosten des Projektes bei Projektende innerhalb Budget?
+									- Wie effizient werden zewit und Ressourcen genutzt?
+									- Wie groß wird Profit bzw. der ROI am Ende des Projekts sein?
+							-  Grundvoraussetzungen
+								- Projektumfange ist fgestgelegt uynd abgegrenzt
+								- Erforderlkiche Arbeitspakete sind ermittelt
+									- Ergebinisse so dfiniert, dass sie aüberprüft werden können
+								- Abhängigkeiten undter arbeitspaketen, sowie Reihenfolge ist festgestekkt/festgelegt
+								- Dauer und Aufwand pro Arbeitspaket ist geschätzt
+								- Kosten- und Terminplan ist erstellt
+							- nicht möglich, wenn
+								- Projektmitarbeiter Aufwände nicth zuverlässig melden
+								- Auwandeserfassung nicht bezogen auf Arbeitspoakete erfoklgt
+								- zu umfangreiche Arbeitspakete definiert werden
+							- Vier Basiswerte
+								- Budget at Completion (BAC): Ursprünglich geplante Gesamtkosten des Projekts (oder Arbeitspakets( zum Projektende
+								- Planned Value (PV): Planwert zum gegenwärtigen Zeitpunkt
+								- Actual Cost (AC): Zum Stichtag angefallene Kosten
+								- Earned Value (EV): aufgrund des Fertigstellungsgrads der geleisteten Arbeit verdienter Wert
+									- Kann maximal der BAC sein, im gegensatz zum AC
+								- In Diagram darstellbar mit Cost/Time. BAC ist oben rechts. stichtag markiert mit gestrichelter (vertikaler) linie.
+									- kurven sind kostenverlüfe, blaue kurve ist die planmäßige. Bei stichtag der Planned Value.
+									- rote kurve: statsächliche kosten. bei stichtag AC
+									- grüne kurve: Tastächliche Arbeitsleistung.
+								- typischerweise tabellarische erfassung
+									- pro Arbeitspaket eine zeile
+									- alle aufwände auf kosten umgerechnet
+									- Spalten:
+										- Arbeitspaket-Nr
+										- Gesamtbudget (BAC)
+											- Festlegung durch Projektstrukturplan
+										- geplanter Wert (PV)
+											- Festlegung durch Kostenplan (soll(
+										- Ist=Kosten (AC)
+											- Ablesen vom Kostenplan (ist)(
+										- Fertigstellungsgrad (PC)
+											- Ermitteln durch Ansätze
+										- Fertigstellungswert (EV)
+											- Berechnen: PC*BAC
+								- Verhältnisse der Basisgrößen um Aussagen über das Projekt zu treffen
+									- PV > EV > AC : Hinter dem Termin, unter Budget
+									- EV > AC (Unter Budget), EV > PV (Vor Termin)
+									- EV < AC (über Budget), EV < PV (hinter dem Termin
+										- Wir sind zu teuer, kosten mehr als wir ledisten
+									- AC > EV > PV: Vor dem Termin, unter Budget
+							- Abgeleitete Größen um AUssagen über Projetkzustand zu machen
+								- CV Kostenabweichung (Cost Variance): EV - AC
+									- Differenz tattsächlicher Fertigstellungswert und tatsächlich angefanllene Kosten. 
+									- negativ: über Budget
+									- positiv: unter Budget
+								- SV Terminplanabweichung (SChedule Variance): EV - PV
+									- Differenz tatsächlicher Fertigstellungswert und geplante Kosten zu best. Zeitpunkt
+									- negativ: hinter Termin
+									- positiv: vor Termin
+								- CPI Kostenentwicklungsindex (Cost Performance INdex): EV / AC ( = PC * BAC / AC)
+									- Indikator f¨¨r die Kostenefizienz
+									- < 1: negativ (Überschreitung der geschätzten Kosten
+									- >1: positiv (Unterschreitung der gesch§ätzten  Kosten)
+								-  SPI Terminentwicklungsindex (Schedule Performance Index): EV / PV
+									- Indikator für Termineffizienz (Wie weit zeitlich aus dem Plan soll)
+									- < 1: negativ (ungünstige situation)
+									- >1: positiv (günstige sitation)
+								- Packt man CPI oder SPI in koordianatensystem mit Zeit: wenn mit schrittweise kleiner werdender Amplitude um 1 schwankend in ruhigen bahnen. 
+									- Bei tiefpunkten: verbessserungsmaßnahmen
+									- Bei hochpunkten: z.b. zum kosten sparen auf ein anderes Projekt angesetzt, da schneller als nötig
+									- (firmenspezzifische)Schwellen, wann bereichsleitung oder Geschäftsführung informiert wird. 
+										- Rot: CPI oder SPI < 0,80
+											- Geschäftsführung wird informiert
+										- Gelb: CPI oder SPI in Intervall [0,80;0,90]
+											- Bereichsleitung wird informiert
+										- Grün: CPI oder SPI in INtervall [0,90;1,10]
+										- evt. Möglichkeiten ausleuchten Change-Reqquests in die wege zu leiten
+							- Vorgehen
+								- 1. Bestimmen/Festlegen des Stichtages
+								- 2. Ablesen des Planned Value PV (durch Summation der einzelnen Arbeitspakete( aus dem Kostenplan zum Stichtag)
+								- 3. Feststellen der Actual Cost AC (durch Summation der einzelnen Arbeitspakete) aus der Kosten- oder Aufwandsermittlung zum Stichtag
+								- 4. Ermitteln des Fertigstellungsgrads (Percent Complete = PC) (pro Arbeitspaket) zum stichtag
+								- 5. Berechnen des Earned Value EV (pro Arbeitspaket): Fertigstellungsgfgrad PC * Budget at Completion BAC
+									- Gersamt-EV ergibt sichdurch Summation des EVs
+							- Erlaubt wertere Analyse, y.b. Bereichnung der erwarteten Gesamtkosten *EAC(,.
+
+
+						- Ergebnisartefakt: Earned value Report
+							- earned value = verdienter wert
+						
+				- D.11 Software testen (Wissensgebiet: Qualitätsmanagement)
+					- D.11.1 Tests durch führen und protokollieren
+					- D.11.2 Tests dokumentieren
+						- Eingangsartefakte: Testprotokolle
+						- Techniken und Werkzeuge: Trouble-Ticket-System,...
+						- Ergebnisartefakte: Testdokumentation
+				- D.11 Iteration abschließen und bereitstellen
+		- Einführung		
+			- Entwicklungsarbeit abgeschlossen
+			- Abnahme durch Auftraggeber
+			- Produktivbetrieb
+				- Planung für den Produktivbetrieb
+				- Rollout des Produkts
+			- E.1 Einführung planen
+				- Betriebsmanager
+					- Verantwortlicher für den zukünftigen Betrieb des Produktes
+				- Release-Noites
+					- Wurden im Vorfeld bei jedem Release erstellt
+					- ehrliche und umfängliche Beschreibung der LKeistungen des Releases (eig auch inkl Mängeln und Abweichuiingen)
+				- Wird oft weitaus bevor das Produkt fertig ist begonnen um Leerlauf zu vemeiden. 
+					- dafür technische Vorraussetzungen rechtzeitig schjaffen
+\				- Verantowrllichekeiten für Planung klüaren
+					- idr alleionm PM
+					- teilweise auch gemeinsam mit Auftraggeber oider durch AUftraggeber in EIgenregie
+				- Verantworliche für Einführung zusammenholen
+					- PM sollte Personen, diein Einführungsprozess relevante ROlle spieen involvieren (z/b// IT-Betrieb, Benutzermanagement, Marketing,...)
+				- Einführungsplan erstellen
+					- ein kleiner Projektplan
+					- auf welchem weg, mit welchen aufeinaner aufbauenden Aktiuvitäten, in welchem teminlichen Rahmen
+					- Unterscheidung zwischen zwei Prokelttypen
+						- Neues Softwareprodukt soll Altanwendung ersetzen
+							- Auf einen schla oder sukzessive?
+						- Neues Softwareprodukt ersetzt  keine ALtanwendung
+					- yuerst Key=User=Group zur verfügung stellen, dann schrittweise allen?
+				- Rollout Fenster
+					- Bei Kunden, mit geschäftskritischer Infrastruktur ()keine einnahmen solange das system nicht läuft)
+					- Einfuuhrung in best Zeitfenster
+					- Datenmigration erst seehr kurz vor eigentlichem Rollout
+						- aber genug zeitlicher Spielraum für Tests
+						- Datenaänderungen während eder Datenmigration müssen erfasst wertden
+				- ggf sicherstellen, dass alle zukünftigen Benutzer geschult sind/werden
+				- sicherstellen, dass IT-Betrieb des Kunden den Betrieb der sw (ggf vollständig) übernehmen kann
+					- der eigentli9che Betrieb gehört nicht mehr zum Betrieb
+			- E.2 Abnahmetest durchführen
+				- Paralel zu E.1
+				- E.2.1 Abnahmetestbereitschaft erklären
+					- PM kündigt Auftraggeber Bereitschaft zur Abnahme des Liefergegenstande an
+						- idr schriftlich, mit vorlauf, damit dieser die AAbnahme vorbereiten kann
+				- E.2.2 Abnahmetest koordinieren
+					- Kunde überprüft die Vollumfänglichkeit
+					- Auf basis des Vertragswerks (Projektvertrag, Pflichtenheft, Anfordeungslistm,...)
+					- Hierfür werden Abnahmetestfälle entwickelt
+						- für jede funktionale und nicht funktionale Anfordeurung bzw. daraus resultierendeverifizierbare Systtemanforderung
+						- jew min ein positiver und ein negativer Testfall
+						- beschreibung idr textuell
+					- damit später objektiv und zweifelsfrei überprüfen ob ANforderungen vertragskonform erfüllt
+					- Unter umständen bereits auf Produktionsumgebuing mit Kopien aus Echtdaten
+					- Dokumentation der gefuindenen Fehler
+					- KLategorisierung der gefundenen Fehler laut Vertrag oder Projektmanagementplan
+						- Wichtigste Kategorie: Abnahmeverhindernde Fehler
+							- z.b. Systemfehlstand, ausfalll geschäftskritischer Funktionalitäten
+							- können weitere Abnahme behindenr
+							- müssen idr binnen weniger Stunden behoben werden
+					- Test-Kick-Off durchführen 
+						- Zum auftakt der Abnahmephase
+						- Stakeholder und Tester mit ystem vertraut macdhen
+						- erste ATestfälle gemeinsam durchführen
+						- PM klann sicch Bild des Systemeinsatzews verscghaffen und ggf lenkend eingreifen
+					- Abnahmetest wird von =Auftraggeber nicht immer system,atisch vorberietet. Was yzu freiem Testen (testen pohne testfälle) führen kann. Das sollte zwar bestandteil derr Abnahme tests sein, aber nicht der einyige, d fehler nur durch Yufall oder erst in produktrion gefunden werden
+				- E.2.3 Abnahmetest durchführen
+					- von Kunden durchgeführ
+					- im rahmen der vertraglichen Reglungen  (z.b. bzgl Länge des Testzeitraums)
+					- Fehler werden in einem Defect-Tracking-=Tool oder über anderere definierte Kanaler angegeben
+				- E.2.4 Abnahme erklären
+					- Ziel: Projekt abschliueßen
+					- Kunde bestätigt ,dass Projekt Erfordernuissen entspricht
+					- Abschlussrechnung kann gestellt werden
+					- Sind in Projektumfangsbeschreibung aufgeführte Abnahmekriterien sind erfüllt, so muss Produkt abgenommen werden
+				- E.2.5 Liefergegenstandnachbessern
+					- abnahmeverhindernde Defkete (und andere)
+					- Evtl im Rahmen eines Risikom anagements Rücklagen für diesen fall gebildet
+					- Nachbe3sserungen müssen geplant werden
+				- Kontrollpunkt 6 Abnahme erteilt
+					- Bedingung: Endprodukt (oder Relaease() ist frei von abnahmeverhindernden Fehlern undwird von Auftraggeber abgenommen
+			- E.3 Produkt einführenj (Go Live)
+				- E.3.1 Produkt einführen
+					- Ziel: Produk ist wie im Einführungsplan beschrieben eingeführt
+						- Produktverantwoirtung klann an das IT-Betriebsmanagement des Auftraggebers übergeben werden
+					- Vorgehen: Abarbeitung des EInführungsplans
+						- Alle Vorgänge sollten überwacht werden (monitoring)
+				- E.3.2 Produktverantwortung abgeben
+					- ggf. workshop zur übergabe an betrieb
+					- betrieb erhält DOkumentation,n z.b. betriebshandbuch
+					- Übernahme der Produktveranwortung sollte durch Betrieb bestätigt werden (*zumindest in einer Email)
+				- Kontrollpunkt 7 Produktionsstart
+					- Offizielle Produktivabnahme
+					- Vorraussetzung um Abschlussprozesse im Projekt anzustoßen (z.b. auspolanen der Teammitglieder)
+		- Abschluss
+			- Formeller Abschluss des Projekt hinsichtlich
+				- Verträgen
+				- Dokumentationen
+					- Projektdokumentation
+					- Softwarehandbuch
+					- Werden in dier Praxis oft vernachlässigt
+			- Alle Prozesse zu definierten Ende bringen
+			- Abschlussbericht
+				- Zweck: Kumuliertes Wissen des Projektes zukünftigen Projekten zur Verfügung stellen
+					- Wesntliche Inhalte, Ergebnisse und Erkenntnisse Dritten zugüanglich machen
+				- Projekt ist beendet, wenmn Abschlussbericht veröffentlicht ist
+			- A.1 Projekt abschließen
+				- Steuerung der Prozesse A2-A6
+			- A.2 Risikoregister schließen
+				- A.2.1 Projekterkenntnisse festhalten
+					- Erenntniosse aus Risikomanagement
+						- Wie weit waren die im PMP festgelegten Proizesse hilfreich
+						- Wo gasb es optimierungsbedarf?
+						- Welche Risiken sind eingetreten?
+						- Welchye Gegenmaßnahmen wurden eingeleitet
+							- welchuye waren erfolgreich, weklche nicht, warum?
+				-  A.2.2 Risikoregister schließen
+					- falls nötig Register aufräumen, damit es anderen OM als Beispiel dienen kann
+			- A.3 Teammitglieder ausplanen
+				- dabei die Arbeit jedes Mitarbeiters gemeinsam mit ihm bewerten (evt. zsm mit Linienvorgesetzten)
+			- A.4 Verträge beenden
+				- zu externen Parnern 
+				- Abrechnungen erstellen bzw überprüfen
+				- im Projektbericht festhalten
+					- feedback zur beschaffung
+					- was lief gut/schlecht
+					- Mit welchem Dienmstleister wqaren sie zufrieden?
+					- wo mussten sie eingreifen, warum?
+			- A.5 Projektkostenrechnung abschließen
+				- A.5.1 Feedback zu Projektkosten erstellen
+					- Feedback zu kosten Controlling
+					- inhalltliche  und prozessbezogene Bewertung
+						- welche Arbeitspakete wie weit warum von Planung abwichen
+						- wie können Folgeprojekte daraus lernen / fehler vermeiden
+							- unter wie überschaätyungen
+						- gab es Schwierigkeiten im Reportiung Prozess?"
+			- A.6 Postmortem durchführen (Zusammenfassen aller erkenntnisse aus projekt) (andere Namen: Projektabschlussworkshop, Kick-out-workshop, TRouchdown-meeting
+				- Motivation: 
+					- Feedback zu den Prozessen im Projektmanagementplan sammelln
+						- was hjat gut/schlecht funktioniert
+						- wo prozesse nicht eingehalten
+						- was lernt organisation daraus
+					- 360˚ Feedback zw PM, Teilprojketleitern, Stakeholdern und Proijketmitartbeitern
+					- Ergebnisse in Projektbericht aufgenommen
+				- Ablauf
+					- idrn Review mit QUalitätsmanagemmentprozessen beginnen
+						- ziel:L identifizierung von Problem und Fehlerquellen
+						- Unterscheiden zw konstruktivem und analytischen Qualitätsmanagementprozessen
+					- kann im Projektbnericht zu folgenden Inhalten ühren 
+						- einführung neuer Verfahren Methoeden oder Werkzeuge		
+						- veränderung der Reihenfolge vopn Prozessaktivitäten
+						- Definition neuer Rollen/Verantwortlichkeiten
+					- Analyse sämtlicher Prozesse des Anforderungsmanagements aus drei Perspektioven 
+						- Integration und Verständlichkeit f¨r Fachabteilungen des Auftraggebers
+						- Umsetzbarkeit für Entrwicklungsabteilung des Auftragnehmers
+						- Kundenzufriedenheit mit dem Projektergebnius
+					- Sämtliche Prozesse der SWoftrwareentwicklung analyusieren
+		q				- Probleme und Fehlerqwuellen identifizieren
+							-Statische Werte einbeziehen
+				- Nach Postmortem>: Prozessbericht ferttigstellen. Inkl Projektprofil: Ziele des Projektes und  ob diese erreicht wurden
+					- Technische wie auch fachliche Oerspekjtive m§öiglich
+			- Kontrollpuinkt 8 Projekt beendet
+				- Das Projekt ist erst dann ordnungsgemäß beendet, wenn
+					- neben abgenommenem Liefergegeenstand eine vollständige Dokumentation gemäß den Prozessspezifikationen vorliegft
+				- Projekt wid letztendlich vom Projektsteuerungsgremium beendet
+			
+		- Phasen können eng verzahnt sein
+			- Durchführung und Einführung: Einführung von Teilergebnissen
+			- Nebenläufigkeit von Aktivitäten
+			- ...
+	- 9 Wissensgemiete (organisatorische Einteilung des Projekts in 9 Wissensbereiche)
+		- Integrations-  und Teammanagement
+			- Integration aller anderen Wissensbereiche (und auc hverschiedener Phasen)
+				- Zusammenführung aller Anforderungen, Bedürfnisse und anderer Faktoren
+				- Koordination von Personen, ROllen, Ressourcen und Prozessen
+		- Inhalts- und Umfangsmanagement	
+			- Frühzeitige Begrenzung des Projektumfangsd
+				- Abrenzung zu irrelevanten Aufgaben
+			- Anforderungs- und Change-Request-Management
+				- Prozesse zur Aufnahme, Verwaltung und Überprüfung von Anforderungen (Wie mit Anforderungen umgegangen wird)	
+		- Softwareentwicklungsmanagement
+			- Einbindung von Prozessen der Softwareentwickluing in das Projektmanagement (z.b. Prozesse des Softwareentwurfs)
+		- Qualitätsmanagement
+			- Planung, Durchführung und Kontrolle von Tests
+			- Qualitätssicherung 
+				- von Projektprozessen
+				- von Artefakten und Liefergegenständen
+			- Frühzeitige Rückkopplung und INtegration von Qualitätsaspekten in allen Projektteilbereichen
+			- Prozesse: D.11 (Software testen)
+		- Stakeholder- und Kommunikationsmanagement
+			- Wer kommuniziert wann mit wem über was in welcher Form (z.b. Projekltstatusberichte)
+			- Prozesse: P.2 (Stakeholder analysieren)	
+		- Risikomanagement
+			- Beschreibung potenzieller RIsiken
+			- Vermeindung
+			- Bewältigung
+		- Zeitmanagement
+			- Planung des Projektablaufs (Projektplan)
+		- Beschaffungsmanagement
+			- Zulieferungen des Kunden oder von Dritten
+			- Ressourcen zur Verfügungstellen
+		- Kostenmanagement 
+			- Sicherstellun der Einhaltung des Projektbudgets
+			- Schätzung der Projektkosten (Aufwandsschätzung)
+			- Reporting
+	- Obwohl PITPM phasen hat nicht wasserfallartiges Vorgehensmodell. In Planungsphase wird z.b. festgelegt, welches Prozessmodell diue eigentliche Softwareentwicklung verwenden soll (agil, iterativ-inkrementell,..)
+		- PITPM legt iteratives Vorgehen nahe
+		- PITPM ist per se keine agile Methode, kann aber agile Methoden inkludieren
+
+- Prozesse (zerlegung des PM in Prozesse, kann also bei obiger untereteilung in Phasen/wissensbereiche eingefügt werden)
+	- Prozess: Sequentiell oder nebenläufige Abfolge von Aktivitäten
+		- Zu jeder Aktivität geh;ren
+			- Eingangsartefakte (Dokumente, die zum Start vorliegen müssen)
+			- Techniken und Werkzeige (Werden im Rahmen der Aktivität eingesetzt um das Ergebnis zu erstellen)
+			- Ergebnisartefakte (Dokumentiert das Ergebnis einer Aktivität)
+		- Gehört jew zu genau einer Phase und einem Wissensbereich
+		- Bsp: P.2 Stakeholder analysieren
+			- Gehört zur Planungsphase und in das Wissensgebiet Stakeholder- und Kommunikationsmanagement
+			- Besteht aus folgenden Aktivitäten
+				- P.2.1 Stakeholder indentifizierien
+					- Eingangsartefakte: Projektauftrag, Projektorganisation,...
+					- Techniken und WErkzeuge: Gespräche, Workshops,...
+					- Ergebnisartefakte: Stakeholder-Liste
+				- P.2.2 Anforderungsgebeer identifizieren
+				- P.2.3 Stakeholder einschätyen
+				- P.2.4 Maßnahmen planen
+					
+- (Projekt)Kontrollpunkte im Prozess
+	- Legen Kriterien für die Weiterführung fest (welche nur möglich ist wenn alle Kriterien erfüllt sind
+		- Anderenfalls Projekterfolg in Gefahr
+
+--
+VL 4
+
+- Projekteinnbindung
+	- Eingliederung von Projektteams in die oranisation eines Unternehmens
+	- Wo im Unternehmen findet man Mitarbeiter, die die Rollen eines IT=Projets besetzen können? Allgemeiner: Wie können zeitlich befristete PRojekte in eine bestehenede dauerhafte Organisationsstruktur eingebettet werden
+	- Aufbauorganisation
+		- Bildet das (meistens hierarchische) Gerüst einer Organisation (z.b. unternehmen)
+		- Legt die Rahmenbedingungen fest (welche Aufgaben von welchen Menschen und Sachmitteln zu bewältigen sind.
+		- Def: das statische System der organisatorischen Einheiten einer UNternehmung, das die Zuständigkeiten für die arbeitsteiliddge (Arbeitsteilung) Erfüllung der Unternehmensaufgabe regelt (Organisation)
+		- Zur Gestalltung der Aufbauorganisatiuon Spezialisierung (Stellenbildung/Abteilungsbildung), Kompetenzabgrenzung (organisatiorische Einheiten werden voneinander abgegrenzt und durch Handlungsbeziehungen miteinander verknüpft), Leitungssystem (Art der Abgrenzung und Verknüpfung) führt zu unterschiedlichen Organiusationsstrukturen
+		- Organisationseinheiten
+			- Linienstellen: Vertigkal und mit Weisungsbefugnis
+				- Instanzen: Stellen Weiusungsbefugnis, Führungsaufgaben werden ausgeführt und Entscheidungen getroffen
+				- Ausführungsstellen: Erhalten von den INstanzen die Weisungen und haben sie umzusetzen
+				- Fachspezifische UAfgaben ohne Fremdentscheidungs- und Weisungskompetenzen
+				- Können auf nahezu allen Ebenenen der Hierarchie eingerichtet werden
+			- Stabstellen: Horizontal und ohne Weisungsbefugnis
+				- Stäbe Sind einer oder mehreren Instanzen zugeordnet, keine Entscheidungs- oder Weisungsbefugnisse, nur Vorschlagssrecht
+				- Assistenzen: Keine ständigen sondern nur fallweise Aufgaben, zugeordnet zu Instanz
+			- Hauptamtliche Gremien: Haben Weisungsbefugnis:
+				- Leitungsgruppen L Gruppe zur Leitung eines Unternehmens (z.b. vorstand der AG)
+				- Projektgruppen: Personen aus unterschiedlichen Tätikeitsbereichen, die zeitlich befristet miteinander Projekte durchführen
+			- Nebenamtliche Gremien: Haben idrkeine WeisungsbefugnisL
+				- Kollegiouim: Organisationseinheiten zur Erfüollung von Sonderaufggaben, zeitlich befristet
+				- Ausschüsse: Organisationseinheiten zur Nebenamtlichen Verrichtung von (Dauer-)AUfgaben
+			- Bsp: Lenkungsausschuss
+				- Für Dauer eines Projektes eingesetzt
+				- SChnittstelle zw PM/Projektgruppe und der Unternehmensleitung bzw externen Beratern
+				- Aufgaben sind z.b. Treffen von Richtlinienentscheidungfen; Verteilung von Projektbudgets; erufung des PM; Genehmigung von Projektänderungen; Lenkung (nicht Leitung) des Projekts 
+		- Linienorganisation
+			- Hierarchie in einem Unternehmen mit Linearem Aufbau (Jeder Mitarbeiter erhält seine Weisungen durch eindeutig bestimmten Vorgesetzten
+			- Oberste Ebene idr Unternehmensleitung
+		- Vorgesetzte
+			- Personenm denen innerhalb einer Organisation die Befugnisi erteilt wurde Anordnungen an nachgeordnetes Personal zu erteilen
+			- Disziplinarische VOrgesetzte
+				- Bestimmen Arbeitseinsatz
+				- Bewerten Arbeitsleistung (Mitarbeitergespräch, Arbeitszeugnis,...)
+				- Genehmigen Urlaub
+				- Ahnden Fehlverhalten (Abmahnung, Entlastung)
+			- Fachliche Vorgesetzte
+				- Erteilen Anweisungen, die zur Erreichung der Arbeitsergebnisse notwendig sind (Weer macht was. nicht: Mitarbeiter aus Projektteam entfernen)
+				- Können keine Anweisungen zum Arbeiseinsatz erteilen oder Verweigerung bestrafen
+			- häufig beides die selbe Person
+		- Projektleiter (PL) vs Projektmanager(PM)
+			- z.t. synonyme verwendung. in PITPM nur PM (Wird vom Sponsor beauftragt das Projekt durchzuführen und erfolgreich abzuschließen
+			- PM hat idr umfassendeere Kompetenz..
+				- in V-Modekll:
+					- PM: Manager, der die Rahmenbedingungen für die Aktivitäten des Submedells festlegt und als oberste Entscheidungsinstanz funktert
+					- PL: Verantwortlicherm der die Aufgaben plant, steuert und kontrolliert
+
+		- Projektstrukturen
+			- Projhekte müssen an die bestehene Organisationsform angedockt werden
+			- Grundlegende Formen der Projektorganisation, die sich hinsichtlich der Befugnisse der Projektleitung unterscheidenL
+				- Stab-Projektorganisation
+					- Bestehende Organisation bleibt weitestgehend bestehen
+					- Projektleiter hat eine Stabstelle und greift für einzelne AUfgaben auf Ressourcen aus der Linie zurück
+						- Übernimmt koordinierende Aufgaben
+						- HJat keine Entscheidungs- oder Weisungsbefugnis (Fachlicje und disziplinarische Komp[etenz verbleibt bei den (Leitern der) Fachabteilungen
+					- Vorteile:
+						- Mitarbeiteereinsatz ist optimierbar
+						- Projekteinführung erforderut nur geringe organisatorische Änderungen
+					- Nachteile:
+						- Wenig Bedeutung, Befugnisse und Einfluss des Projektmanagers (Reduktion  auf Koordniation)
+						- Schwierigkeiten der Koordniation bei unterschiedlichen Projekten	
+				- Reine Projektorganisation
+					- POrojektleiter bekommt für das Projekt Mitarbeiter aus verschiedenen Abteilungen zugeornet
+					- Vollständige Herauslösiung der Mitarbeiter aus ihren Fachabteilungen
+						- Unter fachlicher und disziplinarischer Führung der Projketleitung
+							- PM hat Weisungs- und Entscheidungsbefugnis
+						- Ausschlie-lich für das Projekt
+						- Zewitlich befristetr
+					- Vorteile:
+						- Straffe Projektarbeitsform
+						- Identifikation der Gruppe mit dem Projekt
+						- SChnelle Reaktionszeit
+						- Volle Befugnis/Kompetenz des Projektleiters
+					- Nachteile: 
+						- Projektgruppe in Konkurrenz zur Linie
+						- Probleme des Wieedereinsatzes von Projektmitarbeitern in der Fachabtielung
+						- Kompetenzenüberschreitung des Projektleiters
+				- Matrix-Projektorganisation
+					- Projektleiter/Projektkoordinator bekommt fachliche Kompetenz (Mitarbeiter unterstehen iohm in Projektragen)  über die dem Projekt zugeordneten Mitarbeiter,. Die Bereichsleitung behällt die disziplinarische Kompetenz
+					- Mischform aus reiner und Stabs-Projektorganisation
+						- Projektmitglieder werden für die Dauer des Projektes zum Teil ausder Fachabteilung herausgelöst
+						- Fachabteilungsleitung und Projektl;eitung arbeiten gelichberechtigt zsm und tragen gemeinsam Projektverantwortung
+					- Vorteile:
+						- Flexibler Personaleinsatz
+							- Sowohl für Fachabteilungen und Projektmanager
+						- Fachabteilungen und Projektmanager vertreten ihr Fachgebiett
+						- Ehrer Synergieeffekte
+					- Nachteile
+						- Hoher AUfwand für die Kompetenzenabgrenzung/Ergebnisabstiummung
+						- Konfliktpotential (PM vs. Fachabteilung)
+							- Bestrafung für schlechte fachliche Arbeit
+							- Beurlaubung obwohl dringend für Aufgabe benötigt
+	- Ablauforganisation
+		- Regelt die innerhalb des Rahmens der Aufbauorganisation ablaufenden Arbeits- und INformationsprozesse
+
+- Projektmittel
+	- Welche Werkzeuge stehen uns zur Durchführung von Projekten zur Verfügung
+	- Def: immaterielle und materielle Werkzeuge zur Durchführung von projekten und zur Zielererreichung
+		- Mittel zur Projektauslösung (z.b. Marketing) sind keine Projekt=mittel
+	- Mögliche Klassifizierung
+		- Vorgaben
+			- Projektziele/aufgabenbezogene Vorgaben
+			- Gesetze und Verordnungen/Normen (z.b. DIN, ISO)
+			- Standards (unternehmensbezogen, branchenbezogen)
+		- Modelle
+			- Abstraktion: Beschreibung durch etwas Einfacheres, das aber hinsichtlich der relevanten Eigenschaften gleich ist
+			- ModellierungL: Eine (geeignete) Abstraktion der Wirklichkeit konstruieren (das Modell)
+				- irrelevante Details ignorieren
+				- relevante Dertails darstellen
+				- was iirelevant/relevant ist hängt vom Zweck des Modells abhn
+			- Zeichnungsmodelle
+			- Mathematische Modelle )optische Modelle, Simulationsmodelle)
+			- Beschreibungsmodelle (Vorgehens-, Referenzmodell)
+		- Verfahren
+			- Logische Hilfsmittel zur Arbeitsdurchführung 
+				- Methoden
+					- Planungsmethoden (z.b. rollierend)
+					- Entscheidungsmethoden (z.b. Nutzwertanalyse)
+				- Techniken (Handlungsanweisungen für Teilaufgaben)
+					- z.b. Planungstechniken (z.b. Netzplantechnik)
+					- Führungstechniken (z.b. Delegation von AUfgaben)
+		- Tools
+			- Softwaregestützte Verfahren
+				- Projekttools: PLlanung, Steuerung und Kontroolevon Ressourcen, Terminen, Kosten (z.b. MS Project, Jira)
+			- Allgemein (z.b. Textverarbeitung)
+			- Computer Supported
+			- Programmiersprachen
+		- Maßnahmen
+			- Ausführungserfordernisse im Rahmen der Projektarbeit
+				- Motivationsmaßnahmen für
+					- Projektmitarbeiter
+					- Vom Projektergebnis Betroffene
+			- Informationsmaßnahmen (mündlich, schriftlich, elektronisch)
+			- Schulungsmaßnahmen (Kenntnisse, Fertigkeiten, Sozialkompetenz)
+		- Sachmittel
+			- Büroraum
+			- Mobilar
+			- Kommunikationsmittel
+			- Bürobedarf
+			- EDV-Ausstattung
+			- Besprechungsmittel
+			- Pausenausstattung
+
+
+---------------
+
+
+Klausurinfos
+
+earned values analyse
+	= vlt nicht selbst machen. aber definitiv diagramme auswerten. Läuft das projekt gut. das im verhaeltniss wie sind die kosten drüber/drunter. Aus dem diagramm kann man ablesen ob die kosten gut sind und ob der zeitplan gut ist. 
